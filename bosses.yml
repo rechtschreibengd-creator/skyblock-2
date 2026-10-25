@@ -1,0 +1,76 @@
+# Minibosse. health = Vanilla-HP (x5 = Skyblock-HP), damage = Vanilla-Angriffsschaden.
+# spawn_chance = Chance pro natuerlichem Spawn des Mob-Typs. drops: chance 0.01 = 1% (Magic Find erhoeht die Chance).
+bosses:
+  revenant_warlord:
+    entity: ZOMBIE
+    name: "Revenant Warlord"
+    color: "&2"
+    health: 600
+    damage: 10
+    spawn_chance: 0.008
+    combat_xp: 800
+    drops:
+      - {item: revenant_flesh, chance: 1.0, min: 3, max: 7}
+      - {item: foul_flesh, chance: 0.5, min: 1, max: 2}
+      - {item: revenant_viscera, chance: 0.12}
+      - {item: zombie_talisman, chance: 0.06, announce: true}
+      - {item: book_execute_5, chance: 0.03, announce: true}
+      - {item: undead_catalyst, chance: 0.02, announce: true}
+      - {item: pet_zombie_rare, chance: 0.02, announce: true}
+      - {item: pet_zombie_epic, chance: 0.008, announce: true}
+      - {item: pet_zombie_legendary, chance: 0.0015, announce: true}
+      - {item: scythe_blade, chance: 0.004, announce: true}
+  void_stalker:
+    entity: ENDERMAN
+    name: "Void Stalker"
+    color: "&5"
+    health: 500
+    damage: 14
+    spawn_chance: 0.015
+    combat_xp: 900
+    drops:
+      - {item: void_fragment, chance: 1.0, min: 3, max: 6}
+      - {item: null_ovoid, chance: 0.15}
+      - {item: ender_talisman, chance: 0.05, announce: true}
+      - {item: book_ender_slayer_6, chance: 0.03, announce: true}
+      - {item: transmission_tuner, chance: 0.02, announce: true}
+      - {item: pet_enderman_rare, chance: 0.02, announce: true}
+      - {item: pet_enderman_epic, chance: 0.008, announce: true}
+      - {item: pet_enderman_legendary, chance: 0.0015, announce: true}
+      - {item: void_blade_hilt, chance: 0.004, announce: true}
+  bone_reaper:
+    entity: SKELETON
+    name: "Bone Reaper"
+    color: "&f"
+    health: 450
+    damage: 8
+    spawn_chance: 0.008
+    combat_xp: 800
+    drops:
+      - {item: bone_shard, chance: 1.0, min: 3, max: 7}
+      - {item: calcified_bone, chance: 0.12}
+      - {item: skeleton_talisman, chance: 0.06, announce: true}
+      - {item: book_power_6, chance: 0.03, announce: true}
+      - {item: skeleton_master_core, chance: 0.02, announce: true}
+      - {item: pet_skeleton_rare, chance: 0.02, announce: true}
+      - {item: pet_skeleton_epic, chance: 0.008, announce: true}
+      - {item: pet_skeleton_legendary, chance: 0.0015, announce: true}
+      - {item: bonemerang_head, chance: 0.004, announce: true}
+  venom_queen:
+    entity: SPIDER
+    name: "Venom Queen"
+    color: "&c"
+    health: 500
+    damage: 9
+    spawn_chance: 0.008
+    combat_xp: 800
+    drops:
+      - {item: spider_fang, chance: 1.0, min: 3, max: 6}
+      - {item: tarantula_web, chance: 0.15}
+      - {item: spider_talisman, chance: 0.06, announce: true}
+      - {item: book_first_strike_4, chance: 0.03, announce: true}
+      - {item: venom_gland, chance: 0.02, announce: true}
+      - {item: pet_spider_rare, chance: 0.02, announce: true}
+      - {item: pet_spider_epic, chance: 0.008, announce: true}
+      - {item: pet_spider_legendary, chance: 0.0015, announce: true}
+      - {item: queens_crown, chance: 0.004, announce: true}

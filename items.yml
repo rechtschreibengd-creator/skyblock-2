@@ -1,0 +1,2187 @@
+# Eigene Items einfach hier ergaenzen und mit /sb reload neu laden.
+# stats: DAMAGE, STRENGTH, CRIT_CHANCE, CRIT_DAMAGE, HEALTH, DEFENSE, INTELLIGENCE, SPEED
+# type: SWORD, BOW, TOOL, ARMOR, WAND
+# ability: instant_transmission | wither_impact | healing_circle | ice_spray | giant_slam
+items:
+  aspect_of_the_end:
+    material: DIAMOND_SWORD
+    name: "Aspect of the End"
+    rarity: RARE
+    type: SWORD
+    stats: {DAMAGE: 100, STRENGTH: 100}
+    ability: instant_transmission
+  wither_blade:
+    material: IRON_SWORD
+    name: "Wither Blade"
+    rarity: LEGENDARY
+    type: SWORD
+    stats: {DAMAGE: 260, STRENGTH: 150, INTELLIGENCE: 350, CRIT_DAMAGE: 30}
+    ability: wither_impact
+  frozen_scythe:
+    material: IRON_HOE
+    name: "Frozen Scythe"
+    rarity: RARE
+    type: SWORD
+    stats: {DAMAGE: 80, STRENGTH: 30}
+    ability: ice_spray
+  giants_sword:
+    material: IRON_SWORD
+    name: "Giant's Sword"
+    rarity: EPIC
+    type: SWORD
+    stats: {DAMAGE: 500, STRENGTH: 0, SPEED: -50}
+    ability: giant_slam
+  wand_of_healing:
+    material: STICK
+    name: "Wand of Healing"
+    rarity: UNCOMMON
+    type: WAND
+    stats: {INTELLIGENCE: 50}
+    ability: healing_circle
+  rogue_sword:
+    material: GOLDEN_SWORD
+    name: "Rogue Sword"
+    rarity: COMMON
+    type: SWORD
+    stats: {DAMAGE: 20, SPEED: 20}
+  undead_sword:
+    material: IRON_SWORD
+    name: "Undead Sword"
+    rarity: COMMON
+    type: SWORD
+    stats: {DAMAGE: 30}
+    description: ["Gut gegen Untote."]
+  executioner_blade:
+    material: NETHERITE_SWORD
+    name: "Executioner Blade"
+    rarity: EPIC
+    type: SWORD
+    stats: {DAMAGE: 220, STRENGTH: 80, CRIT_CHANCE: 15, CRIT_DAMAGE: 60}
+    enchants: {EXECUTE: 5, SHARPNESS: 5, FIRST_STRIKE: 3}
+  hunter_bow:
+    material: BOW
+    name: "Hunter Bow"
+    rarity: EPIC
+    type: BOW
+    stats: {DAMAGE: 180, STRENGTH: 40, CRIT_CHANCE: 20, CRIT_DAMAGE: 80}
+    enchants: {POWER: 5}
+  miner_pickaxe:
+    material: DIAMOND_PICKAXE
+    name: "Miner's Pickaxe"
+    rarity: UNCOMMON
+    type: TOOL
+    stats: {DEFENSE: 5}
+    enchants: {EFFICIENCY: 5, FORTUNE: 3, SMELTING_TOUCH: 1, TELEKINESIS: 1}
+  jungle_axe:
+    material: GOLDEN_AXE
+    name: "Jungle Axe"
+    rarity: UNCOMMON
+    type: TOOL
+    stats: {STRENGTH: 10}
+    enchants: {EFFICIENCY: 4, TELEKINESIS: 1, EXPERIENCE: 2}
+  farmers_hoe:
+    material: DIAMOND_HOE
+    name: "Farmer's Hoe"
+    rarity: UNCOMMON
+    type: TOOL
+    enchants: {HARVESTING: 4, TELEKINESIS: 1, EXPERIENCE: 2}
+  miner_helmet:
+    material: IRON_HELMET
+    name: "Miner's Helmet"
+    rarity: UNCOMMON
+    type: ARMOR
+    stats: {HEALTH: 40, DEFENSE: 30}
+  miner_chestplate:
+    material: IRON_CHESTPLATE
+    name: "Miner's Chestplate"
+    rarity: UNCOMMON
+    type: ARMOR
+    stats: {HEALTH: 70, DEFENSE: 70}
+  miner_leggings:
+    material: IRON_LEGGINGS
+    name: "Miner's Leggings"
+    rarity: UNCOMMON
+    type: ARMOR
+    stats: {HEALTH: 60, DEFENSE: 55}
+  miner_boots:
+    material: IRON_BOOTS
+    name: "Miner's Boots"
+    rarity: UNCOMMON
+    type: ARMOR
+    stats: {HEALTH: 30, DEFENSE: 25}
+  dragon_helmet:
+    material: DIAMOND_HELMET
+    name: "Dragon Helmet"
+    rarity: LEGENDARY
+    type: ARMOR
+    stats: {HEALTH: 120, DEFENSE: 90, STRENGTH: 25, CRIT_DAMAGE: 20}
+    enchants: {PROTECTION: 5, GROWTH: 5}
+  dragon_chestplate:
+    material: DIAMOND_CHESTPLATE
+    name: "Dragon Chestplate"
+    rarity: LEGENDARY
+    type: ARMOR
+    stats: {HEALTH: 200, DEFENSE: 130, STRENGTH: 40, CRIT_DAMAGE: 30}
+    enchants: {PROTECTION: 5, GROWTH: 5, THORNS: 2}
+  dragon_leggings:
+    material: DIAMOND_LEGGINGS
+    name: "Dragon Leggings"
+    rarity: LEGENDARY
+    type: ARMOR
+    stats: {HEALTH: 170, DEFENSE: 110, STRENGTH: 30, CRIT_DAMAGE: 25}
+    enchants: {PROTECTION: 5, GROWTH: 5}
+  dragon_boots:
+    material: DIAMOND_BOOTS
+    name: "Dragon Boots"
+    rarity: LEGENDARY
+    type: ARMOR
+    stats: {HEALTH: 100, DEFENSE: 70, STRENGTH: 20, SPEED: 20}
+    enchants: {PROTECTION: 5, GROWTH: 5, SUGAR_RUSH: 3}
+  scholar_chestplate:
+    material: LEATHER_CHESTPLATE
+    name: "Scholar Chestplate"
+    rarity: RARE
+    type: ARMOR
+    stats: {HEALTH: 80, DEFENSE: 40, INTELLIGENCE: 200}
+    enchants: {BIG_BRAIN: 3}
+
+  # ===================== WEITERE WAFFEN =====================
+  starter_sword:
+    material: WOODEN_SWORD
+    name: "Starter Sword"
+    rarity: COMMON
+    type: SWORD
+    stats: {DAMAGE: 10}
+    description: ["Dein erstes Schwert."]
+  stone_blade:
+    material: STONE_SWORD
+    name: "Stone Blade"
+    rarity: COMMON
+    type: SWORD
+    stats: {DAMAGE: 25}
+  iron_claymore:
+    material: IRON_SWORD
+    name: "Iron Claymore"
+    rarity: UNCOMMON
+    type: SWORD
+    stats: {DAMAGE: 55, STRENGTH: 10}
+    enchants: {SHARPNESS: 2}
+  golden_greatsword:
+    material: GOLDEN_SWORD
+    name: "Golden Greatsword"
+    rarity: UNCOMMON
+    type: SWORD
+    stats: {DAMAGE: 70, STRENGTH: 15, SPEED: -10}
+    enchants: {SHARPNESS: 3}
+  emerald_blade:
+    material: DIAMOND_SWORD
+    name: "Emerald Blade"
+    rarity: RARE
+    type: SWORD
+    stats: {DAMAGE: 130, STRENGTH: 30}
+    enchants: {SHARPNESS: 4, CRITICAL: 2}
+    description: ["Wird staerker mit deinem Reichtum."]
+  zombie_sword:
+    material: IRON_SWORD
+    name: "Zombie Sword"
+    rarity: UNCOMMON
+    type: SWORD
+    stats: {DAMAGE: 60, STRENGTH: 10}
+    ability: healing_circle
+  spider_sword:
+    material: STONE_SWORD
+    name: "Spider Sword"
+    rarity: RARE
+    type: SWORD
+    stats: {DAMAGE: 90, STRENGTH: 20, CRIT_CHANCE: 10}
+    enchants: {FIRST_STRIKE: 3}
+  reaper_blade:
+    material: DIAMOND_SWORD
+    name: "Reaper Blade"
+    rarity: EPIC
+    type: SWORD
+    stats: {DAMAGE: 150, STRENGTH: 40}
+    enchants: {VAMPIRISM: 4, LIFE_STEAL: 3}
+    description: ["Trinkt das Leben seiner Opfer."]
+  ender_blade:
+    material: NETHERITE_SWORD
+    name: "Ender Blade"
+    rarity: EPIC
+    type: SWORD
+    stats: {DAMAGE: 200, STRENGTH: 60, CRIT_DAMAGE: 20}
+    enchants: {ENDER_SLAYER: 5}
+  glacial_blade:
+    material: DIAMOND_SWORD
+    name: "Glacial Blade"
+    rarity: RARE
+    type: SWORD
+    stats: {DAMAGE: 110, STRENGTH: 25, INTELLIGENCE: 50}
+    ability: ice_spray
+  shadow_dagger:
+    material: IRON_SWORD
+    name: "Shadow Dagger"
+    rarity: LEGENDARY
+    type: SWORD
+    stats: {DAMAGE: 210, CRIT_CHANCE: 20, CRIT_DAMAGE: 120, SPEED: 20}
+    enchants: {FIRST_STRIKE: 4, CRITICAL: 5}
+    ability: instant_transmission
+  titan_hammer:
+    material: MACE
+    name: "Titan Hammer"
+    rarity: EPIC
+    type: SWORD
+    stats: {DAMAGE: 350, STRENGTH: 50, SPEED: -30}
+    enchants: {SHARPNESS: 5}
+    ability: giant_slam
+  heros_blade:
+    material: DIAMOND_SWORD
+    name: "Hero's Blade"
+    rarity: LEGENDARY
+    type: SWORD
+    stats: {DAMAGE: 300, STRENGTH: 120, INTELLIGENCE: 200, CRIT_DAMAGE: 40}
+    enchants: {SHARPNESS: 6, GIANT_KILLER: 5}
+    ability: wither_impact
+  void_sword:
+    material: NETHERITE_SWORD
+    name: "Void Sword"
+    rarity: LEGENDARY
+    type: SWORD
+    stats: {DAMAGE: 280, STRENGTH: 100, CRIT_DAMAGE: 50}
+    enchants: {ENDER_SLAYER: 7, SHARPNESS: 7, EXECUTE: 4}
+    ability: wither_impact
+  poseidons_trident:
+    material: TRIDENT
+    name: "Poseidon's Trident"
+    rarity: EPIC
+    type: SWORD
+    stats: {DAMAGE: 150, STRENGTH: 40, INTELLIGENCE: 50}
+    enchants: {SHARPNESS: 4}
+    ability: ice_spray
+  executioners_axe:
+    material: NETHERITE_AXE
+    name: "Executioner's Axe"
+    rarity: LEGENDARY
+    type: SWORD
+    stats: {DAMAGE: 330, STRENGTH: 90, SPEED: -20}
+    enchants: {EXECUTE: 6, GIANT_KILLER: 5}
+  mythic_blade:
+    material: NETHERITE_SWORD
+    name: "Mythic Blade"
+    rarity: MYTHIC
+    type: SWORD
+    stats: {DAMAGE: 450, STRENGTH: 180, CRIT_CHANCE: 15, CRIT_DAMAGE: 150, INTELLIGENCE: 300}
+    enchants: {SHARPNESS: 7, CRITICAL: 7, EXECUTE: 6, GIANT_KILLER: 7, FIRST_STRIKE: 5, VAMPIRISM: 6, LIFE_STEAL: 5}
+    ability: wither_impact
+    description: ["Testwaffe: Alles auf Maximum."]
+  skeleton_bow:
+    material: BOW
+    name: "Skeleton Bow"
+    rarity: UNCOMMON
+    type: BOW
+    stats: {DAMAGE: 80, STRENGTH: 10}
+    enchants: {POWER: 3}
+  crossbow_of_doom:
+    material: CROSSBOW
+    name: "Crossbow of Doom"
+    rarity: EPIC
+    type: BOW
+    stats: {DAMAGE: 220, STRENGTH: 60, CRIT_CHANCE: 10}
+    enchants: {POWER: 5}
+  sniper_bow:
+    material: BOW
+    name: "Sniper Bow"
+    rarity: LEGENDARY
+    type: BOW
+    stats: {DAMAGE: 300, STRENGTH: 80, CRIT_CHANCE: 25, CRIT_DAMAGE: 150}
+    enchants: {POWER: 7}
+  wand_of_restoration:
+    material: BLAZE_ROD
+    name: "Wand of Restoration"
+    rarity: RARE
+    type: WAND
+    stats: {INTELLIGENCE: 100, HEALTH: 20}
+    ability: healing_circle
+  wand_of_atonement:
+    material: STICK
+    name: "Wand of Atonement"
+    rarity: EPIC
+    type: WAND
+    stats: {INTELLIGENCE: 200, HEALTH: 50}
+    ability: healing_circle
+  frost_wand:
+    material: BLAZE_ROD
+    name: "Frost Wand"
+    rarity: RARE
+    type: WAND
+    stats: {INTELLIGENCE: 150, DAMAGE: 30}
+    ability: ice_spray
+
+  # ===================== WEITERE WERKZEUGE =====================
+  rookie_pickaxe:
+    material: STONE_PICKAXE
+    name: "Rookie Pickaxe"
+    rarity: COMMON
+    type: TOOL
+    enchants: {EFFICIENCY: 2}
+  gold_pickaxe:
+    material: GOLDEN_PICKAXE
+    name: "Gold Pickaxe"
+    rarity: UNCOMMON
+    type: TOOL
+    stats: {DEFENSE: 3}
+    enchants: {EFFICIENCY: 3, FORTUNE: 1}
+  stonk:
+    material: GOLDEN_PICKAXE
+    name: "Stonk"
+    rarity: EPIC
+    type: TOOL
+    stats: {DEFENSE: 10}
+    enchants: {EFFICIENCY: 5, FORTUNE: 3, SMELTING_TOUCH: 1, TELEKINESIS: 1}
+  titanium_drill:
+    material: NETHERITE_PICKAXE
+    name: "Titanium Drill"
+    rarity: LEGENDARY
+    type: TOOL
+    stats: {DEFENSE: 20, STRENGTH: 15}
+    enchants: {EFFICIENCY: 5, FORTUNE: 4, SMELTING_TOUCH: 1, TELEKINESIS: 1, EXPERIENCE: 4}
+  lumberjack_axe:
+    material: IRON_AXE
+    name: "Lumberjack Axe"
+    rarity: COMMON
+    type: TOOL
+    stats: {STRENGTH: 5}
+    enchants: {EFFICIENCY: 3}
+  treefellers_axe:
+    material: NETHERITE_AXE
+    name: "Treefeller's Axe"
+    rarity: EPIC
+    type: TOOL
+    stats: {STRENGTH: 25}
+    enchants: {EFFICIENCY: 5, TELEKINESIS: 1, EXPERIENCE: 4}
+  rookie_hoe:
+    material: WOODEN_HOE
+    name: "Rookie Hoe"
+    rarity: COMMON
+    type: TOOL
+    enchants: {HARVESTING: 1}
+  advanced_hoe:
+    material: NETHERITE_HOE
+    name: "Advanced Hoe"
+    rarity: LEGENDARY
+    type: TOOL
+    enchants: {HARVESTING: 6, TELEKINESIS: 1, EXPERIENCE: 4}
+  rod_of_the_sea:
+    material: FISHING_ROD
+    name: "Rod of the Sea"
+    rarity: EPIC
+    type: TOOL
+    stats: {HEALTH: 30, STRENGTH: 10}
+    enchants: {EXPERIENCE: 3}
+  farmers_rod:
+    material: FISHING_ROD
+    name: "Farmer's Rod"
+    rarity: UNCOMMON
+    type: TOOL
+    enchants: {EXPERIENCE: 1}
+
+  # ===================== RUESTUNGSSETS (je 4 Teile) =====================
+  leaf_helmet:
+    material: LEATHER_HELMET
+    name: "Leaf Helmet"
+    rarity: UNCOMMON
+    type: ARMOR
+    stats: {HEALTH: 36, DEFENSE: 18}
+  leaf_chestplate:
+    material: LEATHER_CHESTPLATE
+    name: "Leaf Chestplate"
+    rarity: UNCOMMON
+    type: ARMOR
+    stats: {HEALTH: 60, DEFENSE: 30}
+  leaf_leggings:
+    material: LEATHER_LEGGINGS
+    name: "Leaf Leggings"
+    rarity: UNCOMMON
+    type: ARMOR
+    stats: {HEALTH: 51, DEFENSE: 26}
+  leaf_boots:
+    material: LEATHER_BOOTS
+    name: "Leaf Boots"
+    rarity: UNCOMMON
+    type: ARMOR
+    stats: {HEALTH: 30, DEFENSE: 15, SPEED: 10}
+  farm_suit_helmet:
+    material: LEATHER_HELMET
+    name: "Farm Suit Helmet"
+    rarity: RARE
+    type: ARMOR
+    stats: {HEALTH: 54, DEFENSE: 27}
+    enchants: {GROWTH: 2}
+  farm_suit_chestplate:
+    material: LEATHER_CHESTPLATE
+    name: "Farm Suit Chestplate"
+    rarity: RARE
+    type: ARMOR
+    stats: {HEALTH: 90, DEFENSE: 45}
+    enchants: {GROWTH: 2}
+  farm_suit_leggings:
+    material: LEATHER_LEGGINGS
+    name: "Farm Suit Leggings"
+    rarity: RARE
+    type: ARMOR
+    stats: {HEALTH: 76, DEFENSE: 38}
+    enchants: {GROWTH: 2}
+  farm_suit_boots:
+    material: LEATHER_BOOTS
+    name: "Farm Suit Boots"
+    rarity: RARE
+    type: ARMOR
+    stats: {HEALTH: 45, DEFENSE: 22}
+    enchants: {GROWTH: 2}
+  cactus_helmet:
+    material: LEATHER_HELMET
+    name: "Cactus Helmet"
+    rarity: RARE
+    type: ARMOR
+    stats: {HEALTH: 42, DEFENSE: 36}
+  cactus_chestplate:
+    material: LEATHER_CHESTPLATE
+    name: "Cactus Chestplate"
+    rarity: RARE
+    type: ARMOR
+    stats: {HEALTH: 70, DEFENSE: 60}
+    enchants: {THORNS: 2}
+  cactus_leggings:
+    material: LEATHER_LEGGINGS
+    name: "Cactus Leggings"
+    rarity: RARE
+    type: ARMOR
+    stats: {HEALTH: 60, DEFENSE: 51}
+  cactus_boots:
+    material: LEATHER_BOOTS
+    name: "Cactus Boots"
+    rarity: RARE
+    type: ARMOR
+    stats: {HEALTH: 35, DEFENSE: 30}
+  lapis_helmet:
+    material: GOLDEN_HELMET
+    name: "Lapis Helmet"
+    rarity: RARE
+    type: ARMOR
+    stats: {HEALTH: 78, DEFENSE: 15, INTELLIGENCE: 18}
+    enchants: {GROWTH: 3}
+  lapis_chestplate:
+    material: GOLDEN_CHESTPLATE
+    name: "Lapis Chestplate"
+    rarity: RARE
+    type: ARMOR
+    stats: {HEALTH: 130, DEFENSE: 25, INTELLIGENCE: 30}
+    enchants: {GROWTH: 3}
+  lapis_leggings:
+    material: GOLDEN_LEGGINGS
+    name: "Lapis Leggings"
+    rarity: RARE
+    type: ARMOR
+    stats: {HEALTH: 110, DEFENSE: 21, INTELLIGENCE: 26}
+    enchants: {GROWTH: 3}
+  lapis_boots:
+    material: GOLDEN_BOOTS
+    name: "Lapis Boots"
+    rarity: RARE
+    type: ARMOR
+    stats: {HEALTH: 65, DEFENSE: 12, INTELLIGENCE: 15}
+    enchants: {GROWTH: 3}
+  speedster_helmet:
+    material: CHAINMAIL_HELMET
+    name: "Speedster Helmet"
+    rarity: EPIC
+    type: ARMOR
+    stats: {HEALTH: 48, DEFENSE: 33, CRIT_DAMAGE: 15}
+  speedster_chestplate:
+    material: CHAINMAIL_CHESTPLATE
+    name: "Speedster Chestplate"
+    rarity: EPIC
+    type: ARMOR
+    stats: {HEALTH: 80, DEFENSE: 55, CRIT_DAMAGE: 25}
+  speedster_leggings:
+    material: CHAINMAIL_LEGGINGS
+    name: "Speedster Leggings"
+    rarity: EPIC
+    type: ARMOR
+    stats: {HEALTH: 68, DEFENSE: 47, CRIT_DAMAGE: 21}
+  speedster_boots:
+    material: CHAINMAIL_BOOTS
+    name: "Speedster Boots"
+    rarity: EPIC
+    type: ARMOR
+    stats: {HEALTH: 40, DEFENSE: 28, SPEED: 25, CRIT_DAMAGE: 12}
+    enchants: {SUGAR_RUSH: 3}
+  young_dragon_helmet:
+    material: DIAMOND_HELMET
+    name: "Young Dragon Helmet"
+    rarity: LEGENDARY
+    type: ARMOR
+    stats: {HEALTH: 102, DEFENSE: 60, STRENGTH: 18}
+    enchants: {PROTECTION: 4}
+  young_dragon_chestplate:
+    material: DIAMOND_CHESTPLATE
+    name: "Young Dragon Chestplate"
+    rarity: LEGENDARY
+    type: ARMOR
+    stats: {HEALTH: 170, DEFENSE: 100, STRENGTH: 30}
+    enchants: {PROTECTION: 4}
+  young_dragon_leggings:
+    material: DIAMOND_LEGGINGS
+    name: "Young Dragon Leggings"
+    rarity: LEGENDARY
+    type: ARMOR
+    stats: {HEALTH: 144, DEFENSE: 85, STRENGTH: 26}
+    enchants: {PROTECTION: 4}
+  young_dragon_boots:
+    material: DIAMOND_BOOTS
+    name: "Young Dragon Boots"
+    rarity: LEGENDARY
+    type: ARMOR
+    stats: {HEALTH: 85, DEFENSE: 50, STRENGTH: 15, SPEED: 30}
+    enchants: {PROTECTION: 4, SUGAR_RUSH: 3}
+  strong_dragon_helmet:
+    material: DIAMOND_HELMET
+    name: "Strong Dragon Helmet"
+    rarity: LEGENDARY
+    type: ARMOR
+    stats: {HEALTH: 114, DEFENSE: 72, STRENGTH: 27, CRIT_DAMAGE: 21}
+    enchants: {PROTECTION: 5, GROWTH: 4}
+  strong_dragon_chestplate:
+    material: DIAMOND_CHESTPLATE
+    name: "Strong Dragon Chestplate"
+    rarity: LEGENDARY
+    type: ARMOR
+    stats: {HEALTH: 190, DEFENSE: 120, STRENGTH: 45, CRIT_DAMAGE: 35}
+    enchants: {PROTECTION: 5, GROWTH: 4}
+  strong_dragon_leggings:
+    material: DIAMOND_LEGGINGS
+    name: "Strong Dragon Leggings"
+    rarity: LEGENDARY
+    type: ARMOR
+    stats: {HEALTH: 162, DEFENSE: 102, STRENGTH: 38, CRIT_DAMAGE: 30}
+    enchants: {PROTECTION: 5, GROWTH: 4}
+  strong_dragon_boots:
+    material: DIAMOND_BOOTS
+    name: "Strong Dragon Boots"
+    rarity: LEGENDARY
+    type: ARMOR
+    stats: {HEALTH: 95, DEFENSE: 60, STRENGTH: 22, CRIT_DAMAGE: 18}
+    enchants: {PROTECTION: 5, GROWTH: 4}
+  mage_helmet:
+    material: LEATHER_HELMET
+    name: "Mage Helmet"
+    rarity: EPIC
+    type: ARMOR
+    stats: {HEALTH: 66, DEFENSE: 24, INTELLIGENCE: 180}
+    enchants: {BIG_BRAIN: 4}
+  mage_chestplate:
+    material: LEATHER_CHESTPLATE
+    name: "Mage Chestplate"
+    rarity: EPIC
+    type: ARMOR
+    stats: {HEALTH: 110, DEFENSE: 40, INTELLIGENCE: 300}
+    enchants: {BIG_BRAIN: 4}
+  mage_leggings:
+    material: LEATHER_LEGGINGS
+    name: "Mage Leggings"
+    rarity: EPIC
+    type: ARMOR
+    stats: {HEALTH: 94, DEFENSE: 34, INTELLIGENCE: 255}
+    enchants: {BIG_BRAIN: 4}
+  mage_boots:
+    material: LEATHER_BOOTS
+    name: "Mage Boots"
+    rarity: EPIC
+    type: ARMOR
+    stats: {HEALTH: 55, DEFENSE: 20, INTELLIGENCE: 150}
+    enchants: {BIG_BRAIN: 4}
+  berserk_helmet:
+    material: NETHERITE_HELMET
+    name: "Berserk Helmet"
+    rarity: EPIC
+    type: ARMOR
+    stats: {HEALTH: 120, DEFENSE: 66, STRENGTH: 36, CRIT_CHANCE: 5}
+    enchants: {PROTECTION: 4}
+  berserk_chestplate:
+    material: NETHERITE_CHESTPLATE
+    name: "Berserk Chestplate"
+    rarity: EPIC
+    type: ARMOR
+    stats: {HEALTH: 200, DEFENSE: 110, STRENGTH: 60, CRIT_CHANCE: 8}
+    enchants: {PROTECTION: 4}
+  berserk_leggings:
+    material: NETHERITE_LEGGINGS
+    name: "Berserk Leggings"
+    rarity: EPIC
+    type: ARMOR
+    stats: {HEALTH: 170, DEFENSE: 94, STRENGTH: 51, CRIT_CHANCE: 7}
+    enchants: {PROTECTION: 4}
+  berserk_boots:
+    material: NETHERITE_BOOTS
+    name: "Berserk Boots"
+    rarity: EPIC
+    type: ARMOR
+    stats: {HEALTH: 100, DEFENSE: 55, STRENGTH: 30, CRIT_CHANCE: 4}
+    enchants: {PROTECTION: 4}
+  tank_helmet:
+    material: IRON_HELMET
+    name: "Tank Helmet"
+    rarity: EPIC
+    type: ARMOR
+    stats: {HEALTH: 180, DEFENSE: 132}
+    enchants: {GROWTH: 5, PROTECTION: 5}
+  tank_chestplate:
+    material: IRON_CHESTPLATE
+    name: "Tank Chestplate"
+    rarity: EPIC
+    type: ARMOR
+    stats: {HEALTH: 300, DEFENSE: 220}
+    enchants: {GROWTH: 5, PROTECTION: 5, THORNS: 3}
+  tank_leggings:
+    material: IRON_LEGGINGS
+    name: "Tank Leggings"
+    rarity: EPIC
+    type: ARMOR
+    stats: {HEALTH: 255, DEFENSE: 187}
+    enchants: {GROWTH: 5, PROTECTION: 5}
+  tank_boots:
+    material: IRON_BOOTS
+    name: "Tank Boots"
+    rarity: EPIC
+    type: ARMOR
+    stats: {HEALTH: 150, DEFENSE: 110}
+    enchants: {GROWTH: 5, PROTECTION: 5}
+  assassin_helmet:
+    material: CHAINMAIL_HELMET
+    name: "Assassin Helmet"
+    rarity: LEGENDARY
+    type: ARMOR
+    stats: {HEALTH: 72, DEFENSE: 42, CRIT_CHANCE: 7, CRIT_DAMAGE: 42}
+    enchants: {PROTECTION: 3}
+  assassin_chestplate:
+    material: CHAINMAIL_CHESTPLATE
+    name: "Assassin Chestplate"
+    rarity: LEGENDARY
+    type: ARMOR
+    stats: {HEALTH: 120, DEFENSE: 70, CRIT_CHANCE: 12, CRIT_DAMAGE: 70}
+    enchants: {PROTECTION: 3}
+  assassin_leggings:
+    material: CHAINMAIL_LEGGINGS
+    name: "Assassin Leggings"
+    rarity: LEGENDARY
+    type: ARMOR
+    stats: {HEALTH: 102, DEFENSE: 60, CRIT_CHANCE: 10, CRIT_DAMAGE: 60}
+    enchants: {PROTECTION: 3}
+  assassin_boots:
+    material: CHAINMAIL_BOOTS
+    name: "Assassin Boots"
+    rarity: LEGENDARY
+    type: ARMOR
+    stats: {HEALTH: 60, DEFENSE: 35, CRIT_CHANCE: 6, CRIT_DAMAGE: 35, SPEED: 25}
+    enchants: {PROTECTION: 3, SUGAR_RUSH: 3}
+  wither_armor_helmet:
+    material: NETHERITE_HELMET
+    name: "Wither Helmet"
+    rarity: LEGENDARY
+    type: ARMOR
+    stats: {HEALTH: 156, DEFENSE: 96, STRENGTH: 42, CRIT_DAMAGE: 33, INTELLIGENCE: 60}
+    enchants: {PROTECTION: 6, GROWTH: 6}
+  wither_armor_chestplate:
+    material: NETHERITE_CHESTPLATE
+    name: "Wither Chestplate"
+    rarity: LEGENDARY
+    type: ARMOR
+    stats: {HEALTH: 260, DEFENSE: 160, STRENGTH: 70, CRIT_DAMAGE: 55, INTELLIGENCE: 100}
+    enchants: {PROTECTION: 6, GROWTH: 6, THORNS: 3}
+  wither_armor_leggings:
+    material: NETHERITE_LEGGINGS
+    name: "Wither Leggings"
+    rarity: LEGENDARY
+    type: ARMOR
+    stats: {HEALTH: 221, DEFENSE: 136, STRENGTH: 60, CRIT_DAMAGE: 47, INTELLIGENCE: 85}
+    enchants: {PROTECTION: 6, GROWTH: 6}
+  wither_armor_boots:
+    material: NETHERITE_BOOTS
+    name: "Wither Boots"
+    rarity: LEGENDARY
+    type: ARMOR
+    stats: {HEALTH: 130, DEFENSE: 80, STRENGTH: 35, CRIT_DAMAGE: 28, INTELLIGENCE: 50}
+    enchants: {PROTECTION: 6, GROWTH: 6}
+
+  # ===================== MATERIALIEN (verzaubert) =====================
+  enchanted_coal:
+    material: COAL
+    name: "Enchanted Coal"
+    rarity: UNCOMMON
+    type: MATERIAL
+    description: ["Hergestellt aus 160 Stueck."]
+    glow: true
+  enchanted_iron:
+    material: IRON_INGOT
+    name: "Enchanted Iron"
+    rarity: UNCOMMON
+    type: MATERIAL
+    description: ["Hergestellt aus 160 Stueck."]
+    glow: true
+  enchanted_gold:
+    material: GOLD_INGOT
+    name: "Enchanted Gold"
+    rarity: UNCOMMON
+    type: MATERIAL
+    description: ["Hergestellt aus 160 Stueck."]
+    glow: true
+  enchanted_redstone:
+    material: REDSTONE
+    name: "Enchanted Redstone"
+    rarity: UNCOMMON
+    type: MATERIAL
+    description: ["Hergestellt aus 160 Stueck."]
+    glow: true
+  enchanted_lapis:
+    material: LAPIS_LAZULI
+    name: "Enchanted Lapis"
+    rarity: UNCOMMON
+    type: MATERIAL
+    description: ["Hergestellt aus 160 Stueck."]
+    glow: true
+  enchanted_diamond:
+    material: DIAMOND
+    name: "Enchanted Diamond"
+    rarity: RARE
+    type: MATERIAL
+    description: ["Hergestellt aus 64 Stueck."]
+    glow: true
+  enchanted_emerald:
+    material: EMERALD
+    name: "Enchanted Emerald"
+    rarity: RARE
+    type: MATERIAL
+    description: ["Hergestellt aus 64 Stueck."]
+    glow: true
+  enchanted_quartz:
+    material: QUARTZ
+    name: "Enchanted Quartz"
+    rarity: UNCOMMON
+    type: MATERIAL
+    description: ["Hergestellt aus 64 Stueck."]
+    glow: true
+  enchanted_obsidian:
+    material: OBSIDIAN
+    name: "Enchanted Obsidian"
+    rarity: RARE
+    type: MATERIAL
+    description: ["Hergestellt aus 64 Stueck."]
+    glow: true
+  enchanted_glowstone:
+    material: GLOWSTONE_DUST
+    name: "Enchanted Glowstone"
+    rarity: UNCOMMON
+    type: MATERIAL
+    description: ["Hergestellt aus 128 Stueck."]
+    glow: true
+  enchanted_ender_pearl:
+    material: ENDER_PEARL
+    name: "Enchanted Ender Pearl"
+    rarity: RARE
+    type: MATERIAL
+    description: ["Hergestellt aus 16 Stueck."]
+    glow: true
+  enchanted_blaze_rod:
+    material: BLAZE_ROD
+    name: "Enchanted Blaze Rod"
+    rarity: RARE
+    type: MATERIAL
+    description: ["Hergestellt aus 32 Stueck."]
+    glow: true
+  enchanted_ghast_tear:
+    material: GHAST_TEAR
+    name: "Enchanted Ghast Tear"
+    rarity: RARE
+    type: MATERIAL
+    description: ["Hergestellt aus 12 Stueck."]
+    glow: true
+  enchanted_bone:
+    material: BONE
+    name: "Enchanted Bone"
+    rarity: UNCOMMON
+    type: MATERIAL
+    description: ["Hergestellt aus 160 Stueck."]
+    glow: true
+  enchanted_rotten_flesh:
+    material: ROTTEN_FLESH
+    name: "Enchanted Rotten Flesh"
+    rarity: UNCOMMON
+    type: MATERIAL
+    description: ["Hergestellt aus 160 Stueck."]
+    glow: true
+  enchanted_string:
+    material: STRING
+    name: "Enchanted String"
+    rarity: UNCOMMON
+    type: MATERIAL
+    description: ["Hergestellt aus 160 Stueck."]
+    glow: true
+  enchanted_spider_eye:
+    material: SPIDER_EYE
+    name: "Enchanted Spider Eye"
+    rarity: UNCOMMON
+    type: MATERIAL
+    description: ["Hergestellt aus 128 Stueck."]
+    glow: true
+  enchanted_gunpowder:
+    material: GUNPOWDER
+    name: "Enchanted Gunpowder"
+    rarity: UNCOMMON
+    type: MATERIAL
+    description: ["Hergestellt aus 160 Stueck."]
+    glow: true
+  enchanted_slime_ball:
+    material: SLIME_BALL
+    name: "Enchanted Slime Ball"
+    rarity: UNCOMMON
+    type: MATERIAL
+    description: ["Hergestellt aus 128 Stueck."]
+    glow: true
+  enchanted_ancient_debris:
+    material: ANCIENT_DEBRIS
+    name: "Enchanted Ancient Debris"
+    rarity: EPIC
+    type: MATERIAL
+    description: ["Hergestellt aus 8 Stueck."]
+    glow: true
+  enchanted_wheat:
+    material: WHEAT
+    name: "Enchanted Wheat"
+    rarity: UNCOMMON
+    type: MATERIAL
+    description: ["Hergestellt aus 160 Stueck."]
+    glow: true
+  enchanted_leather:
+    material: LEATHER
+    name: "Enchanted Leather"
+    rarity: UNCOMMON
+    type: MATERIAL
+    description: ["Hergestellt aus 128 Stueck."]
+    glow: true
+  enchanted_feather:
+    material: FEATHER
+    name: "Enchanted Feather"
+    rarity: UNCOMMON
+    type: MATERIAL
+    description: ["Hergestellt aus 128 Stueck."]
+    glow: true
+  enchanted_cobblestone:
+    material: COBBLESTONE
+    name: "Enchanted Cobblestone"
+    rarity: UNCOMMON
+    type: MATERIAL
+    description: ["Hergestellt aus 512 Stueck."]
+    glow: true
+  enchanted_log:
+    material: OAK_LOG
+    name: "Enchanted Log"
+    rarity: UNCOMMON
+    type: MATERIAL
+    description: ["Hergestellt aus 128 Stueck."]
+    glow: true
+  enchanted_prismarine:
+    material: PRISMARINE_SHARD
+    name: "Enchanted Prismarine"
+    rarity: RARE
+    type: MATERIAL
+    description: ["Hergestellt aus 64 Stueck."]
+    glow: true
+  enchanted_magma_cream:
+    material: MAGMA_CREAM
+    name: "Enchanted Magma Cream"
+    rarity: RARE
+    type: MATERIAL
+    description: ["Hergestellt aus 64 Stueck."]
+    glow: true
+  enchanted_nether_wart:
+    material: NETHER_WART
+    name: "Enchanted Nether Wart"
+    rarity: UNCOMMON
+    type: MATERIAL
+    description: ["Hergestellt aus 160 Stueck."]
+    glow: true
+  enchanted_cactus:
+    material: CACTUS
+    name: "Enchanted Cactus"
+    rarity: UNCOMMON
+    type: MATERIAL
+    description: ["Hergestellt aus 128 Stueck."]
+    glow: true
+
+  # ===================== KOMPONENTEN =====================
+  wither_catalyst:
+    material: WITHER_ROSE
+    name: "Wither Catalyst"
+    rarity: RARE
+    type: MATERIAL
+    description: ["Konzentrierte Daemonenkraft."]
+    glow: true
+  titan_alloy:
+    material: NETHERITE_SCRAP
+    name: "Titan Alloy"
+    rarity: RARE
+    type: MATERIAL
+    description: ["Extrem harte Legierung."]
+    glow: true
+  ender_core:
+    material: ENDER_EYE
+    name: "Ender Core"
+    rarity: EPIC
+    type: MATERIAL
+    description: ["Pulsiert mit Endenergie."]
+    glow: true
+  blazing_core:
+    material: MAGMA_BLOCK
+    name: "Blazing Core"
+    rarity: EPIC
+    type: MATERIAL
+    description: ["Brennt ewig."]
+    glow: true
+  arcane_crystal:
+    material: AMETHYST_SHARD
+    name: "Arcane Crystal"
+    rarity: EPIC
+    type: MATERIAL
+    description: ["Speichert magische Energie."]
+    glow: true
+  frost_core:
+    material: BLUE_ICE
+    name: "Frost Core"
+    rarity: RARE
+    type: MATERIAL
+    description: ["Eiskalt."]
+    glow: true
+  spider_silk_weave:
+    material: COBWEB
+    name: "Spider Silk Weave"
+    rarity: RARE
+    type: MATERIAL
+    description: ["Zaeh und leicht."]
+    glow: true
+  necrotic_essence:
+    material: SOUL_SAND
+    name: "Necrotic Essence"
+    rarity: RARE
+    type: MATERIAL
+    description: ["Der Atem der Untoten."]
+    glow: true
+  wither_essence:
+    material: NETHER_STAR
+    name: "Wither Essence"
+    rarity: LEGENDARY
+    type: MATERIAL
+    description: ["Die Essenz eines besiegten Withers."]
+    glow: true
+
+  # ===================== BOSS-DROP MATERIALIEN =====================
+  revenant_flesh:
+    material: ROTTEN_FLESH
+    name: "Revenant Flesh"
+    rarity: COMMON
+    type: MATERIAL
+    description: ["Droppt von Minibossen."]
+  foul_flesh:
+    material: ROTTEN_FLESH
+    name: "Foul Flesh"
+    rarity: UNCOMMON
+    type: MATERIAL
+    description: ["Droppt von Minibossen."]
+    glow: true
+  revenant_viscera:
+    material: RED_DYE
+    name: "Revenant Viscera"
+    rarity: RARE
+    type: MATERIAL
+    description: ["Droppt von Minibossen."]
+    glow: true
+  undead_catalyst:
+    material: TOTEM_OF_UNDYING
+    name: "Undead Catalyst"
+    rarity: EPIC
+    type: MATERIAL
+    description: ["Droppt von Minibossen."]
+    glow: true
+  scythe_blade:
+    material: NETHERITE_SCRAP
+    name: "Scythe Blade"
+    rarity: LEGENDARY
+    type: MATERIAL
+    description: ["Droppt von Minibossen."]
+    glow: true
+  void_fragment:
+    material: CHORUS_FRUIT
+    name: "Void Fragment"
+    rarity: UNCOMMON
+    type: MATERIAL
+    description: ["Droppt von Minibossen."]
+  null_ovoid:
+    material: ENDER_EYE
+    name: "Null Ovoid"
+    rarity: RARE
+    type: MATERIAL
+    description: ["Droppt von Minibossen."]
+    glow: true
+  transmission_tuner:
+    material: ECHO_SHARD
+    name: "Transmission Tuner"
+    rarity: EPIC
+    type: MATERIAL
+    description: ["Droppt von Minibossen."]
+    glow: true
+  void_blade_hilt:
+    material: DRAGON_BREATH
+    name: "Void Blade Hilt"
+    rarity: LEGENDARY
+    type: MATERIAL
+    description: ["Droppt von Minibossen."]
+    glow: true
+  bone_shard:
+    material: BONE_MEAL
+    name: "Bone Shard"
+    rarity: UNCOMMON
+    type: MATERIAL
+    description: ["Droppt von Minibossen."]
+  calcified_bone:
+    material: BONE_BLOCK
+    name: "Calcified Bone"
+    rarity: RARE
+    type: MATERIAL
+    description: ["Droppt von Minibossen."]
+    glow: true
+  skeleton_master_core:
+    material: SKELETON_SKULL
+    name: "Skeleton Master Core"
+    rarity: EPIC
+    type: MATERIAL
+    description: ["Droppt von Minibossen."]
+    glow: true
+  bonemerang_head:
+    material: ARROW
+    name: "Bonemerang Head"
+    rarity: LEGENDARY
+    type: MATERIAL
+    description: ["Droppt von Minibossen."]
+    glow: true
+  spider_fang:
+    material: SPIDER_EYE
+    name: "Spider Fang"
+    rarity: UNCOMMON
+    type: MATERIAL
+    description: ["Droppt von Minibossen."]
+  tarantula_web:
+    material: COBWEB
+    name: "Tarantula Web"
+    rarity: RARE
+    type: MATERIAL
+    description: ["Droppt von Minibossen."]
+    glow: true
+  venom_gland:
+    material: FERMENTED_SPIDER_EYE
+    name: "Venom Gland"
+    rarity: EPIC
+    type: MATERIAL
+    description: ["Droppt von Minibossen."]
+    glow: true
+  queens_crown:
+    material: GOLD_BLOCK
+    name: "Queen's Crown"
+    rarity: LEGENDARY
+    type: MATERIAL
+    description: ["Droppt von Minibossen."]
+    glow: true
+
+  # ===================== TALISMANE (zaehlen aus dem Inventar, je 1x) =====================
+  zombie_talisman:
+    material: ROTTEN_FLESH
+    name: "Zombie Talisman"
+    rarity: UNCOMMON
+    type: TALISMAN
+    stats: {HEALTH: 25, DEFENSE: 5}
+    description: ["Wirkt aus dem Inventar. Jeder Talisman zaehlt nur 1x."]
+  skeleton_talisman:
+    material: BONE
+    name: "Skeleton Talisman"
+    rarity: UNCOMMON
+    type: TALISMAN
+    stats: {CRIT_CHANCE: 2, STRENGTH: 5}
+    description: ["Wirkt aus dem Inventar. Jeder Talisman zaehlt nur 1x."]
+  spider_talisman:
+    material: SPIDER_EYE
+    name: "Spider Talisman"
+    rarity: UNCOMMON
+    type: TALISMAN
+    stats: {CRIT_CHANCE: 3, SPEED: 3}
+    description: ["Wirkt aus dem Inventar. Jeder Talisman zaehlt nur 1x."]
+  ender_talisman:
+    material: ENDER_PEARL
+    name: "Ender Talisman"
+    rarity: RARE
+    type: TALISMAN
+    stats: {INTELLIGENCE: 20, CRIT_DAMAGE: 5}
+    description: ["Wirkt aus dem Inventar. Jeder Talisman zaehlt nur 1x."]
+  feather_talisman:
+    material: FEATHER
+    name: "Feather Talisman"
+    rarity: COMMON
+    type: TALISMAN
+    stats: {SPEED: 5}
+    description: ["Wirkt aus dem Inventar. Jeder Talisman zaehlt nur 1x."]
+  farming_talisman:
+    material: WHEAT
+    name: "Farming Talisman"
+    rarity: COMMON
+    type: TALISMAN
+    stats: {HEALTH: 10}
+    description: ["Wirkt aus dem Inventar. Jeder Talisman zaehlt nur 1x."]
+  lucky_clover:
+    material: FERN
+    name: "Lucky Clover"
+    rarity: RARE
+    type: TALISMAN
+    stats: {MAGIC_FIND: 5}
+    description: ["Wirkt aus dem Inventar. Jeder Talisman zaehlt nur 1x."]
+  crit_ring:
+    material: GOLD_NUGGET
+    name: "Crit Ring"
+    rarity: RARE
+    type: TALISMAN
+    stats: {CRIT_CHANCE: 5, CRIT_DAMAGE: 10}
+    description: ["Wirkt aus dem Inventar. Jeder Talisman zaehlt nur 1x."]
+  speed_ring:
+    material: SUGAR
+    name: "Speed Ring"
+    rarity: RARE
+    type: TALISMAN
+    stats: {SPEED: 10}
+    description: ["Wirkt aus dem Inventar. Jeder Talisman zaehlt nur 1x."]
+  magic_ring:
+    material: AMETHYST_SHARD
+    name: "Magic Ring"
+    rarity: EPIC
+    type: TALISMAN
+    stats: {MAGIC_FIND: 10, INTELLIGENCE: 25}
+    description: ["Wirkt aus dem Inventar. Jeder Talisman zaehlt nur 1x."]
+  titan_talisman:
+    material: NETHERITE_INGOT
+    name: "Titan Talisman"
+    rarity: EPIC
+    type: TALISMAN
+    stats: {DEFENSE: 25, STRENGTH: 10}
+    description: ["Wirkt aus dem Inventar. Jeder Talisman zaehlt nur 1x."]
+  wither_relic:
+    material: NETHER_STAR
+    name: "Wither Relic"
+    rarity: LEGENDARY
+    type: TALISMAN
+    stats: {STRENGTH: 30, CRIT_DAMAGE: 30, INTELLIGENCE: 50}
+    description: ["Wirkt aus dem Inventar. Jeder Talisman zaehlt nur 1x."]
+
+  # ===================== ENCHANT-BUECHER =====================
+  book_sharpness_6:
+    material: ENCHANTED_BOOK
+    name: "Enchanted Book: Sharpness VI"
+    rarity: EPIC
+    type: BOOK
+    glow: true
+    book: SHARPNESS:6
+  book_power_6:
+    material: ENCHANTED_BOOK
+    name: "Enchanted Book: Power VI"
+    rarity: EPIC
+    type: BOOK
+    glow: true
+    book: POWER:6
+  book_critical_6:
+    material: ENCHANTED_BOOK
+    name: "Enchanted Book: Critical VI"
+    rarity: EPIC
+    type: BOOK
+    glow: true
+    book: CRITICAL:6
+  book_execute_5:
+    material: ENCHANTED_BOOK
+    name: "Enchanted Book: Execute V"
+    rarity: EPIC
+    type: BOOK
+    glow: true
+    book: EXECUTE:5
+  book_first_strike_4:
+    material: ENCHANTED_BOOK
+    name: "Enchanted Book: First Strike IV"
+    rarity: EPIC
+    type: BOOK
+    glow: true
+    book: FIRST_STRIKE:4
+  book_giant_killer_6:
+    material: ENCHANTED_BOOK
+    name: "Enchanted Book: Giant Killer VI"
+    rarity: EPIC
+    type: BOOK
+    glow: true
+    book: GIANT_KILLER:6
+  book_vampirism_5:
+    material: ENCHANTED_BOOK
+    name: "Enchanted Book: Vampirism V"
+    rarity: EPIC
+    type: BOOK
+    glow: true
+    book: VAMPIRISM:5
+  book_life_steal_4:
+    material: ENCHANTED_BOOK
+    name: "Enchanted Book: Life Steal IV"
+    rarity: EPIC
+    type: BOOK
+    glow: true
+    book: LIFE_STEAL:4
+  book_ender_slayer_6:
+    material: ENCHANTED_BOOK
+    name: "Enchanted Book: Ender Slayer VI"
+    rarity: EPIC
+    type: BOOK
+    glow: true
+    book: ENDER_SLAYER:6
+  book_protection_6:
+    material: ENCHANTED_BOOK
+    name: "Enchanted Book: Protection VI"
+    rarity: EPIC
+    type: BOOK
+    glow: true
+    book: PROTECTION:6
+  book_growth_6:
+    material: ENCHANTED_BOOK
+    name: "Enchanted Book: Growth VI"
+    rarity: EPIC
+    type: BOOK
+    glow: true
+    book: GROWTH:6
+  book_big_brain_4:
+    material: ENCHANTED_BOOK
+    name: "Enchanted Book: Big Brain IV"
+    rarity: EPIC
+    type: BOOK
+    glow: true
+    book: BIG_BRAIN:4
+  book_thorns_3:
+    material: ENCHANTED_BOOK
+    name: "Enchanted Book: Thorns III"
+    rarity: LEGENDARY
+    type: BOOK
+    glow: true
+    book: THORNS:3
+  book_sugar_rush_3:
+    material: ENCHANTED_BOOK
+    name: "Enchanted Book: Sugar Rush III"
+    rarity: LEGENDARY
+    type: BOOK
+    glow: true
+    book: SUGAR_RUSH:3
+  book_fortune_4:
+    material: ENCHANTED_BOOK
+    name: "Enchanted Book: Fortune IV"
+    rarity: LEGENDARY
+    type: BOOK
+    glow: true
+    book: FORTUNE:4
+  book_efficiency_5:
+    material: ENCHANTED_BOOK
+    name: "Enchanted Book: Efficiency V"
+    rarity: LEGENDARY
+    type: BOOK
+    glow: true
+    book: EFFICIENCY:5
+
+  # ===================== PET-EIER =====================
+  pet_wolf_common:
+    material: BONE
+    name: "Wolf Pet"
+    rarity: COMMON
+    type: PET
+    pet: wolf
+  pet_wolf_uncommon:
+    material: BONE
+    name: "Wolf Pet"
+    rarity: UNCOMMON
+    type: PET
+    pet: wolf
+  pet_wolf_rare:
+    material: BONE
+    name: "Wolf Pet"
+    rarity: RARE
+    type: PET
+    pet: wolf
+  pet_wolf_epic:
+    material: BONE
+    name: "Wolf Pet"
+    rarity: EPIC
+    type: PET
+    glow: true
+    pet: wolf
+  pet_wolf_legendary:
+    material: BONE
+    name: "Wolf Pet"
+    rarity: LEGENDARY
+    type: PET
+    glow: true
+    pet: wolf
+  pet_tiger_common:
+    material: COOKED_CHICKEN
+    name: "Tiger Pet"
+    rarity: COMMON
+    type: PET
+    pet: tiger
+  pet_tiger_uncommon:
+    material: COOKED_CHICKEN
+    name: "Tiger Pet"
+    rarity: UNCOMMON
+    type: PET
+    pet: tiger
+  pet_tiger_rare:
+    material: COOKED_CHICKEN
+    name: "Tiger Pet"
+    rarity: RARE
+    type: PET
+    pet: tiger
+  pet_tiger_epic:
+    material: COOKED_CHICKEN
+    name: "Tiger Pet"
+    rarity: EPIC
+    type: PET
+    glow: true
+    pet: tiger
+  pet_tiger_legendary:
+    material: COOKED_CHICKEN
+    name: "Tiger Pet"
+    rarity: LEGENDARY
+    type: PET
+    glow: true
+    pet: tiger
+  pet_enderman_common:
+    material: ENDER_PEARL
+    name: "Enderman Pet"
+    rarity: COMMON
+    type: PET
+    pet: enderman
+  pet_enderman_uncommon:
+    material: ENDER_PEARL
+    name: "Enderman Pet"
+    rarity: UNCOMMON
+    type: PET
+    pet: enderman
+  pet_enderman_rare:
+    material: ENDER_PEARL
+    name: "Enderman Pet"
+    rarity: RARE
+    type: PET
+    pet: enderman
+  pet_enderman_epic:
+    material: ENDER_PEARL
+    name: "Enderman Pet"
+    rarity: EPIC
+    type: PET
+    glow: true
+    pet: enderman
+  pet_enderman_legendary:
+    material: ENDER_PEARL
+    name: "Enderman Pet"
+    rarity: LEGENDARY
+    type: PET
+    glow: true
+    pet: enderman
+  pet_phoenix_common:
+    material: BLAZE_POWDER
+    name: "Phoenix Pet"
+    rarity: COMMON
+    type: PET
+    pet: phoenix
+  pet_phoenix_uncommon:
+    material: BLAZE_POWDER
+    name: "Phoenix Pet"
+    rarity: UNCOMMON
+    type: PET
+    pet: phoenix
+  pet_phoenix_rare:
+    material: BLAZE_POWDER
+    name: "Phoenix Pet"
+    rarity: RARE
+    type: PET
+    pet: phoenix
+  pet_phoenix_epic:
+    material: BLAZE_POWDER
+    name: "Phoenix Pet"
+    rarity: EPIC
+    type: PET
+    glow: true
+    pet: phoenix
+  pet_phoenix_legendary:
+    material: BLAZE_POWDER
+    name: "Phoenix Pet"
+    rarity: LEGENDARY
+    type: PET
+    glow: true
+    pet: phoenix
+  pet_zombie_common:
+    material: ROTTEN_FLESH
+    name: "Zombie Pet"
+    rarity: COMMON
+    type: PET
+    pet: zombie
+  pet_zombie_uncommon:
+    material: ROTTEN_FLESH
+    name: "Zombie Pet"
+    rarity: UNCOMMON
+    type: PET
+    pet: zombie
+  pet_zombie_rare:
+    material: ROTTEN_FLESH
+    name: "Zombie Pet"
+    rarity: RARE
+    type: PET
+    pet: zombie
+  pet_zombie_epic:
+    material: ROTTEN_FLESH
+    name: "Zombie Pet"
+    rarity: EPIC
+    type: PET
+    glow: true
+    pet: zombie
+  pet_zombie_legendary:
+    material: ROTTEN_FLESH
+    name: "Zombie Pet"
+    rarity: LEGENDARY
+    type: PET
+    glow: true
+    pet: zombie
+  pet_spider_common:
+    material: SPIDER_EYE
+    name: "Spider Pet"
+    rarity: COMMON
+    type: PET
+    pet: spider
+  pet_spider_uncommon:
+    material: SPIDER_EYE
+    name: "Spider Pet"
+    rarity: UNCOMMON
+    type: PET
+    pet: spider
+  pet_spider_rare:
+    material: SPIDER_EYE
+    name: "Spider Pet"
+    rarity: RARE
+    type: PET
+    pet: spider
+  pet_spider_epic:
+    material: SPIDER_EYE
+    name: "Spider Pet"
+    rarity: EPIC
+    type: PET
+    glow: true
+    pet: spider
+  pet_spider_legendary:
+    material: SPIDER_EYE
+    name: "Spider Pet"
+    rarity: LEGENDARY
+    type: PET
+    glow: true
+    pet: spider
+  pet_skeleton_common:
+    material: BONE_MEAL
+    name: "Skeleton Pet"
+    rarity: COMMON
+    type: PET
+    pet: skeleton
+  pet_skeleton_uncommon:
+    material: BONE_MEAL
+    name: "Skeleton Pet"
+    rarity: UNCOMMON
+    type: PET
+    pet: skeleton
+  pet_skeleton_rare:
+    material: BONE_MEAL
+    name: "Skeleton Pet"
+    rarity: RARE
+    type: PET
+    pet: skeleton
+  pet_skeleton_epic:
+    material: BONE_MEAL
+    name: "Skeleton Pet"
+    rarity: EPIC
+    type: PET
+    glow: true
+    pet: skeleton
+  pet_skeleton_legendary:
+    material: BONE_MEAL
+    name: "Skeleton Pet"
+    rarity: LEGENDARY
+    type: PET
+    glow: true
+    pet: skeleton
+  pet_golem_common:
+    material: IRON_BLOCK
+    name: "Golem Pet"
+    rarity: COMMON
+    type: PET
+    pet: golem
+  pet_golem_uncommon:
+    material: IRON_BLOCK
+    name: "Golem Pet"
+    rarity: UNCOMMON
+    type: PET
+    pet: golem
+  pet_golem_rare:
+    material: IRON_BLOCK
+    name: "Golem Pet"
+    rarity: RARE
+    type: PET
+    pet: golem
+  pet_golem_epic:
+    material: IRON_BLOCK
+    name: "Golem Pet"
+    rarity: EPIC
+    type: PET
+    glow: true
+    pet: golem
+  pet_golem_legendary:
+    material: IRON_BLOCK
+    name: "Golem Pet"
+    rarity: LEGENDARY
+    type: PET
+    glow: true
+    pet: golem
+  pet_bee_common:
+    material: HONEYCOMB
+    name: "Bee Pet"
+    rarity: COMMON
+    type: PET
+    pet: bee
+  pet_bee_uncommon:
+    material: HONEYCOMB
+    name: "Bee Pet"
+    rarity: UNCOMMON
+    type: PET
+    pet: bee
+  pet_bee_rare:
+    material: HONEYCOMB
+    name: "Bee Pet"
+    rarity: RARE
+    type: PET
+    pet: bee
+  pet_bee_epic:
+    material: HONEYCOMB
+    name: "Bee Pet"
+    rarity: EPIC
+    type: PET
+    glow: true
+    pet: bee
+  pet_bee_legendary:
+    material: HONEYCOMB
+    name: "Bee Pet"
+    rarity: LEGENDARY
+    type: PET
+    glow: true
+    pet: bee
+  pet_elephant_common:
+    material: LEATHER
+    name: "Elephant Pet"
+    rarity: COMMON
+    type: PET
+    pet: elephant
+  pet_elephant_uncommon:
+    material: LEATHER
+    name: "Elephant Pet"
+    rarity: UNCOMMON
+    type: PET
+    pet: elephant
+  pet_elephant_rare:
+    material: LEATHER
+    name: "Elephant Pet"
+    rarity: RARE
+    type: PET
+    pet: elephant
+  pet_elephant_epic:
+    material: LEATHER
+    name: "Elephant Pet"
+    rarity: EPIC
+    type: PET
+    glow: true
+    pet: elephant
+  pet_elephant_legendary:
+    material: LEATHER
+    name: "Elephant Pet"
+    rarity: LEGENDARY
+    type: PET
+    glow: true
+    pet: elephant
+  pet_rock_common:
+    material: COBBLESTONE
+    name: "Rock Pet"
+    rarity: COMMON
+    type: PET
+    pet: rock
+  pet_rock_uncommon:
+    material: COBBLESTONE
+    name: "Rock Pet"
+    rarity: UNCOMMON
+    type: PET
+    pet: rock
+  pet_rock_rare:
+    material: COBBLESTONE
+    name: "Rock Pet"
+    rarity: RARE
+    type: PET
+    pet: rock
+  pet_rock_epic:
+    material: COBBLESTONE
+    name: "Rock Pet"
+    rarity: EPIC
+    type: PET
+    glow: true
+    pet: rock
+  pet_rock_legendary:
+    material: COBBLESTONE
+    name: "Rock Pet"
+    rarity: LEGENDARY
+    type: PET
+    glow: true
+    pet: rock
+  pet_squid_common:
+    material: INK_SAC
+    name: "Squid Pet"
+    rarity: COMMON
+    type: PET
+    pet: squid
+  pet_squid_uncommon:
+    material: INK_SAC
+    name: "Squid Pet"
+    rarity: UNCOMMON
+    type: PET
+    pet: squid
+  pet_squid_rare:
+    material: INK_SAC
+    name: "Squid Pet"
+    rarity: RARE
+    type: PET
+    pet: squid
+  pet_squid_epic:
+    material: INK_SAC
+    name: "Squid Pet"
+    rarity: EPIC
+    type: PET
+    glow: true
+    pet: squid
+  pet_squid_legendary:
+    material: INK_SAC
+    name: "Squid Pet"
+    rarity: LEGENDARY
+    type: PET
+    glow: true
+    pet: squid
+  pet_monkey_common:
+    material: JUNGLE_LEAVES
+    name: "Monkey Pet"
+    rarity: COMMON
+    type: PET
+    pet: monkey
+  pet_monkey_uncommon:
+    material: JUNGLE_LEAVES
+    name: "Monkey Pet"
+    rarity: UNCOMMON
+    type: PET
+    pet: monkey
+  pet_monkey_rare:
+    material: JUNGLE_LEAVES
+    name: "Monkey Pet"
+    rarity: RARE
+    type: PET
+    pet: monkey
+  pet_monkey_epic:
+    material: JUNGLE_LEAVES
+    name: "Monkey Pet"
+    rarity: EPIC
+    type: PET
+    glow: true
+    pet: monkey
+  pet_monkey_legendary:
+    material: JUNGLE_LEAVES
+    name: "Monkey Pet"
+    rarity: LEGENDARY
+    type: PET
+    glow: true
+    pet: monkey
+
+  # ===================== BOSS-BESCHWOERUNGEN =====================
+  summon_revenant:
+    material: ZOMBIE_HEAD
+    name: "Revenant Core"
+    rarity: EPIC
+    type: SUMMON
+    description: ["Beschwoert den Revenant Warlord."]
+    glow: true
+    summon: revenant_warlord
+  summon_void:
+    material: DRAGON_HEAD
+    name: "Void Core"
+    rarity: EPIC
+    type: SUMMON
+    description: ["Beschwoert den Void Stalker."]
+    glow: true
+    summon: void_stalker
+  summon_bone:
+    material: SKELETON_SKULL
+    name: "Bone Core"
+    rarity: EPIC
+    type: SUMMON
+    description: ["Beschwoert den Bone Reaper."]
+    glow: true
+    summon: bone_reaper
+  summon_venom:
+    material: SPIDER_EYE
+    name: "Venom Core"
+    rarity: EPIC
+    type: SUMMON
+    description: ["Beschwoert die Venom Queen."]
+    glow: true
+    summon: venom_queen
+
+  # ===================== NEUE WAFFEN / WERKZEUGE =====================
+  aspect_of_the_void:
+    material: DIAMOND_SHOVEL
+    name: "Aspect of the Void"
+    rarity: EPIC
+    type: SWORD
+    stats: {DAMAGE: 150, STRENGTH: 140, INTELLIGENCE: 50}
+    ability: shadow_step
+  reaper_falchion:
+    material: DIAMOND_SWORD
+    name: "Reaper Falchion"
+    rarity: LEGENDARY
+    type: SWORD
+    stats: {DAMAGE: 240, STRENGTH: 80, CRIT_CHANCE: 10, CRIT_DAMAGE: 40}
+    enchants: {VAMPIRISM: 5, LIFE_STEAL: 3}
+    ability: soul_drain
+  voidedge_katana:
+    material: NETHERITE_SWORD
+    name: "Voidedge Katana"
+    rarity: LEGENDARY
+    type: SWORD
+    stats: {DAMAGE: 320, STRENGTH: 110, CRIT_CHANCE: 15, CRIT_DAMAGE: 90}
+    enchants: {ENDER_SLAYER: 6, FIRST_STRIKE: 4}
+    ability: shadow_step
+  bone_reaper_bow:
+    material: BOW
+    name: "Bone Reaper Longbow"
+    rarity: LEGENDARY
+    type: BOW
+    stats: {DAMAGE: 280, STRENGTH: 70, CRIT_CHANCE: 20, CRIT_DAMAGE: 130}
+    enchants: {POWER: 6}
+  queens_stinger:
+    material: IRON_SWORD
+    name: "Queen's Stinger"
+    rarity: LEGENDARY
+    type: SWORD
+    stats: {DAMAGE: 270, STRENGTH: 90, CRIT_CHANCE: 20, SPEED: 15}
+    enchants: {FIRST_STRIKE: 4, CRITICAL: 4}
+    ability: venom_burst
+  tarantula_sword:
+    material: IRON_SWORD
+    name: "Tarantula Sword"
+    rarity: RARE
+    type: SWORD
+    stats: {DAMAGE: 130, STRENGTH: 35, CRIT_CHANCE: 10}
+    enchants: {FIRST_STRIKE: 3}
+    ability: venom_burst
+  soulbinder_sickle:
+    material: NETHERITE_HOE
+    name: "Soulbinder Sickle"
+    rarity: EPIC
+    type: SWORD
+    stats: {DAMAGE: 190, STRENGTH: 60, INTELLIGENCE: 80}
+    enchants: {VAMPIRISM: 4}
+    ability: soul_drain
+  meteor_staff:
+    material: BLAZE_ROD
+    name: "Meteor Staff"
+    rarity: EPIC
+    type: WAND
+    stats: {INTELLIGENCE: 250, DAMAGE: 50}
+    ability: meteor_strike
+  thunderlord_sword:
+    material: IRON_SWORD
+    name: "Thunderlord Sword"
+    rarity: LEGENDARY
+    type: SWORD
+    stats: {DAMAGE: 240, STRENGTH: 70, INTELLIGENCE: 100, CRIT_DAMAGE: 35}
+    enchants: {SHARPNESS: 5}
+    ability: lightning_strike
+  leaping_sword:
+    material: IRON_SWORD
+    name: "Leaping Sword"
+    rarity: RARE
+    type: SWORD
+    stats: {DAMAGE: 100, STRENGTH: 30, SPEED: 10}
+    ability: leap
+  grappling_hook:
+    material: FISHING_ROD
+    name: "Grappling Hook"
+    rarity: UNCOMMON
+    type: TOOL
+    ability: grappling_hook
+    description: ["Zieht dich durch die Luft."]
+  berserker_axe:
+    material: NETHERITE_AXE
+    name: "Berserker Axe"
+    rarity: EPIC
+    type: SWORD
+    stats: {DAMAGE: 260, STRENGTH: 100, SPEED: -10}
+    enchants: {SHARPNESS: 5, EXECUTE: 3}
+    ability: war_cry
+  staff_of_life:
+    material: STICK
+    name: "Staff of Life"
+    rarity: RARE
+    type: WAND
+    stats: {INTELLIGENCE: 120, HEALTH: 40}
+    ability: life_surge
+  aegis_wand:
+    material: BLAZE_ROD
+    name: "Aegis Wand"
+    rarity: EPIC
+    type: WAND
+    stats: {INTELLIGENCE: 200, DEFENSE: 30}
+    ability: wither_shield
+  gravity_scepter:
+    material: END_ROD
+    name: "Gravity Scepter"
+    rarity: EPIC
+    type: WAND
+    stats: {INTELLIGENCE: 250}
+    ability: gravity_well
+  mana_gem:
+    material: AMETHYST_SHARD
+    name: "Mana Gem"
+    rarity: UNCOMMON
+    type: WAND
+    stats: {INTELLIGENCE: 100}
+    ability: mana_flux
+  phantom_blade:
+    material: IRON_SWORD
+    name: "Phantom Blade"
+    rarity: EPIC
+    type: SWORD
+    stats: {DAMAGE: 170, STRENGTH: 50, CRIT_CHANCE: 15, CRIT_DAMAGE: 60, SPEED: 20}
+    ability: shadow_step
+
+  # ===================== NEUE RUESTUNGSSETS (je 4 Teile) =====================
+  zombie_armor_helmet:
+    material: LEATHER_HELMET
+    name: "Zombie Helmet"
+    rarity: RARE
+    type: ARMOR
+    stats: {HEALTH: 72, DEFENSE: 30}
+    enchants: {GROWTH: 2}
+  zombie_armor_chestplate:
+    material: LEATHER_CHESTPLATE
+    name: "Zombie Chestplate"
+    rarity: RARE
+    type: ARMOR
+    stats: {HEALTH: 120, DEFENSE: 50}
+    enchants: {GROWTH: 2}
+  zombie_armor_leggings:
+    material: LEATHER_LEGGINGS
+    name: "Zombie Leggings"
+    rarity: RARE
+    type: ARMOR
+    stats: {HEALTH: 102, DEFENSE: 42}
+    enchants: {GROWTH: 2}
+  zombie_armor_boots:
+    material: LEATHER_BOOTS
+    name: "Zombie Boots"
+    rarity: RARE
+    type: ARMOR
+    stats: {HEALTH: 60, DEFENSE: 25}
+    enchants: {GROWTH: 2}
+  spider_armor_helmet:
+    material: CHAINMAIL_HELMET
+    name: "Spider Helmet"
+    rarity: RARE
+    type: ARMOR
+    stats: {HEALTH: 48, DEFENSE: 24, CRIT_CHANCE: 4}
+  spider_armor_chestplate:
+    material: CHAINMAIL_CHESTPLATE
+    name: "Spider Chestplate"
+    rarity: RARE
+    type: ARMOR
+    stats: {HEALTH: 80, DEFENSE: 40, CRIT_CHANCE: 6}
+  spider_armor_leggings:
+    material: CHAINMAIL_LEGGINGS
+    name: "Spider Leggings"
+    rarity: RARE
+    type: ARMOR
+    stats: {HEALTH: 68, DEFENSE: 34, CRIT_CHANCE: 5}
+  spider_armor_boots:
+    material: CHAINMAIL_BOOTS
+    name: "Spider Boots"
+    rarity: RARE
+    type: ARMOR
+    stats: {HEALTH: 40, DEFENSE: 20, CRIT_CHANCE: 3, SPEED: 20}
+    enchants: {SUGAR_RUSH: 2}
+  bone_armor_helmet:
+    material: CHAINMAIL_HELMET
+    name: "Bone Helmet"
+    rarity: RARE
+    type: ARMOR
+    stats: {HEALTH: 54, DEFENSE: 33, CRIT_DAMAGE: 12}
+    enchants: {PROTECTION: 2}
+  bone_armor_chestplate:
+    material: CHAINMAIL_CHESTPLATE
+    name: "Bone Chestplate"
+    rarity: RARE
+    type: ARMOR
+    stats: {HEALTH: 90, DEFENSE: 55, CRIT_DAMAGE: 20}
+    enchants: {PROTECTION: 2}
+  bone_armor_leggings:
+    material: CHAINMAIL_LEGGINGS
+    name: "Bone Leggings"
+    rarity: RARE
+    type: ARMOR
+    stats: {HEALTH: 76, DEFENSE: 47, CRIT_DAMAGE: 17}
+    enchants: {PROTECTION: 2}
+  bone_armor_boots:
+    material: CHAINMAIL_BOOTS
+    name: "Bone Boots"
+    rarity: RARE
+    type: ARMOR
+    stats: {HEALTH: 45, DEFENSE: 28, CRIT_DAMAGE: 10}
+    enchants: {PROTECTION: 2}
+  ender_armor_helmet:
+    material: NETHERITE_HELMET
+    name: "Ender Helmet"
+    rarity: EPIC
+    type: ARMOR
+    stats: {HEALTH: 96, DEFENSE: 54, INTELLIGENCE: 72, CRIT_DAMAGE: 18}
+    enchants: {PROTECTION: 4}
+  ender_armor_chestplate:
+    material: NETHERITE_CHESTPLATE
+    name: "Ender Chestplate"
+    rarity: EPIC
+    type: ARMOR
+    stats: {HEALTH: 160, DEFENSE: 90, INTELLIGENCE: 120, CRIT_DAMAGE: 30}
+    enchants: {PROTECTION: 4}
+  ender_armor_leggings:
+    material: NETHERITE_LEGGINGS
+    name: "Ender Leggings"
+    rarity: EPIC
+    type: ARMOR
+    stats: {HEALTH: 136, DEFENSE: 76, INTELLIGENCE: 102, CRIT_DAMAGE: 26}
+    enchants: {PROTECTION: 4}
+  ender_armor_boots:
+    material: NETHERITE_BOOTS
+    name: "Ender Boots"
+    rarity: EPIC
+    type: ARMOR
+    stats: {HEALTH: 80, DEFENSE: 45, INTELLIGENCE: 60, CRIT_DAMAGE: 15}
+    enchants: {PROTECTION: 4}
+  magma_armor_helmet:
+    material: IRON_HELMET
+    name: "Magma Helmet"
+    rarity: EPIC
+    type: ARMOR
+    stats: {HEALTH: 108, DEFENSE: 60, STRENGTH: 21}
+    enchants: {PROTECTION: 4}
+  magma_armor_chestplate:
+    material: IRON_CHESTPLATE
+    name: "Magma Chestplate"
+    rarity: EPIC
+    type: ARMOR
+    stats: {HEALTH: 180, DEFENSE: 100, STRENGTH: 35}
+    enchants: {PROTECTION: 4, THORNS: 2}
+  magma_armor_leggings:
+    material: IRON_LEGGINGS
+    name: "Magma Leggings"
+    rarity: EPIC
+    type: ARMOR
+    stats: {HEALTH: 153, DEFENSE: 85, STRENGTH: 30}
+    enchants: {PROTECTION: 4}
+  magma_armor_boots:
+    material: IRON_BOOTS
+    name: "Magma Boots"
+    rarity: EPIC
+    type: ARMOR
+    stats: {HEALTH: 90, DEFENSE: 50, STRENGTH: 18}
+    enchants: {PROTECTION: 4}
+  emerald_armor_helmet:
+    material: DIAMOND_HELMET
+    name: "Emerald Helmet"
+    rarity: EPIC
+    type: ARMOR
+    stats: {HEALTH: 126, DEFENSE: 63, STRENGTH: 15, MAGIC_FIND: 5}
+    enchants: {PROTECTION: 4, GROWTH: 4}
+  emerald_armor_chestplate:
+    material: DIAMOND_CHESTPLATE
+    name: "Emerald Chestplate"
+    rarity: EPIC
+    type: ARMOR
+    stats: {HEALTH: 210, DEFENSE: 105, STRENGTH: 25, MAGIC_FIND: 8}
+    enchants: {PROTECTION: 4, GROWTH: 4}
+  emerald_armor_leggings:
+    material: DIAMOND_LEGGINGS
+    name: "Emerald Leggings"
+    rarity: EPIC
+    type: ARMOR
+    stats: {HEALTH: 178, DEFENSE: 89, STRENGTH: 21, MAGIC_FIND: 7}
+    enchants: {PROTECTION: 4, GROWTH: 4}
+  emerald_armor_boots:
+    material: DIAMOND_BOOTS
+    name: "Emerald Boots"
+    rarity: EPIC
+    type: ARMOR
+    stats: {HEALTH: 105, DEFENSE: 52, STRENGTH: 12, MAGIC_FIND: 4}
+    enchants: {PROTECTION: 4, GROWTH: 4}
+  frost_armor_helmet:
+    material: LEATHER_HELMET
+    name: "Frost Helmet"
+    rarity: EPIC
+    type: ARMOR
+    stats: {HEALTH: 84, DEFENSE: 42, INTELLIGENCE: 54}
+    enchants: {PROTECTION: 3}
+  frost_armor_chestplate:
+    material: LEATHER_CHESTPLATE
+    name: "Frost Chestplate"
+    rarity: EPIC
+    type: ARMOR
+    stats: {HEALTH: 140, DEFENSE: 70, INTELLIGENCE: 90}
+    enchants: {PROTECTION: 3}
+  frost_armor_leggings:
+    material: LEATHER_LEGGINGS
+    name: "Frost Leggings"
+    rarity: EPIC
+    type: ARMOR
+    stats: {HEALTH: 119, DEFENSE: 60, INTELLIGENCE: 76}
+    enchants: {PROTECTION: 3}
+  frost_armor_boots:
+    material: LEATHER_BOOTS
+    name: "Frost Boots"
+    rarity: EPIC
+    type: ARMOR
+    stats: {HEALTH: 70, DEFENSE: 35, INTELLIGENCE: 45}
+    enchants: {PROTECTION: 3}
+  revenant_armor_helmet:
+    material: IRON_HELMET
+    name: "Revenant Helmet"
+    rarity: EPIC
+    type: ARMOR
+    stats: {HEALTH: 138, DEFENSE: 66, STRENGTH: 24}
+    enchants: {GROWTH: 5, PROTECTION: 4}
+  revenant_armor_chestplate:
+    material: IRON_CHESTPLATE
+    name: "Revenant Chestplate"
+    rarity: EPIC
+    type: ARMOR
+    stats: {HEALTH: 230, DEFENSE: 110, STRENGTH: 40}
+    enchants: {GROWTH: 5, PROTECTION: 4, THORNS: 3}
+  revenant_armor_leggings:
+    material: IRON_LEGGINGS
+    name: "Revenant Leggings"
+    rarity: EPIC
+    type: ARMOR
+    stats: {HEALTH: 196, DEFENSE: 94, STRENGTH: 34}
+    enchants: {GROWTH: 5, PROTECTION: 4}
+  revenant_armor_boots:
+    material: IRON_BOOTS
+    name: "Revenant Boots"
+    rarity: EPIC
+    type: ARMOR
+    stats: {HEALTH: 115, DEFENSE: 55, STRENGTH: 20}
+    enchants: {GROWTH: 5, PROTECTION: 4}
+  void_armor_helmet:
+    material: NETHERITE_HELMET
+    name: "Void Helmet"
+    rarity: LEGENDARY
+    type: ARMOR
+    stats: {HEALTH: 132, DEFENSE: 60, INTELLIGENCE: 96, CRIT_DAMAGE: 30}
+    enchants: {PROTECTION: 5, BIG_BRAIN: 4}
+  void_armor_chestplate:
+    material: NETHERITE_CHESTPLATE
+    name: "Void Chestplate"
+    rarity: LEGENDARY
+    type: ARMOR
+    stats: {HEALTH: 220, DEFENSE: 100, INTELLIGENCE: 160, CRIT_DAMAGE: 50}
+    enchants: {PROTECTION: 5, BIG_BRAIN: 4}
+  void_armor_leggings:
+    material: NETHERITE_LEGGINGS
+    name: "Void Leggings"
+    rarity: LEGENDARY
+    type: ARMOR
+    stats: {HEALTH: 187, DEFENSE: 85, INTELLIGENCE: 136, CRIT_DAMAGE: 42}
+    enchants: {PROTECTION: 5, BIG_BRAIN: 4}
+  void_armor_boots:
+    material: NETHERITE_BOOTS
+    name: "Void Boots"
+    rarity: LEGENDARY
+    type: ARMOR
+    stats: {HEALTH: 110, DEFENSE: 50, INTELLIGENCE: 80, CRIT_DAMAGE: 25, SPEED: 15}
+    enchants: {PROTECTION: 5, BIG_BRAIN: 4}
+  bone_reaper_armor_helmet:
+    material: CHAINMAIL_HELMET
+    name: "Bone Reaper Helmet"
+    rarity: LEGENDARY
+    type: ARMOR
+    stats: {HEALTH: 102, DEFENSE: 51, CRIT_CHANCE: 7, CRIT_DAMAGE: 48}
+    enchants: {PROTECTION: 5}
+  bone_reaper_armor_chestplate:
+    material: CHAINMAIL_CHESTPLATE
+    name: "Bone Reaper Chestplate"
+    rarity: LEGENDARY
+    type: ARMOR
+    stats: {HEALTH: 170, DEFENSE: 85, CRIT_CHANCE: 12, CRIT_DAMAGE: 80}
+    enchants: {PROTECTION: 5}
+  bone_reaper_armor_leggings:
+    material: CHAINMAIL_LEGGINGS
+    name: "Bone Reaper Leggings"
+    rarity: LEGENDARY
+    type: ARMOR
+    stats: {HEALTH: 144, DEFENSE: 72, CRIT_CHANCE: 10, CRIT_DAMAGE: 68}
+    enchants: {PROTECTION: 5}
+  bone_reaper_armor_boots:
+    material: CHAINMAIL_BOOTS
+    name: "Bone Reaper Boots"
+    rarity: LEGENDARY
+    type: ARMOR
+    stats: {HEALTH: 85, DEFENSE: 42, CRIT_CHANCE: 6, CRIT_DAMAGE: 40}
+    enchants: {PROTECTION: 5}
+  venom_armor_helmet:
+    material: CHAINMAIL_HELMET
+    name: "Venom Helmet"
+    rarity: LEGENDARY
+    type: ARMOR
+    stats: {HEALTH: 108, DEFENSE: 54, CRIT_CHANCE: 6, STRENGTH: 30}
+    enchants: {PROTECTION: 5, GROWTH: 5}
+  venom_armor_chestplate:
+    material: CHAINMAIL_CHESTPLATE
+    name: "Venom Chestplate"
+    rarity: LEGENDARY
+    type: ARMOR
+    stats: {HEALTH: 180, DEFENSE: 90, CRIT_CHANCE: 10, STRENGTH: 50}
+    enchants: {PROTECTION: 5, GROWTH: 5}
+  venom_armor_leggings:
+    material: CHAINMAIL_LEGGINGS
+    name: "Venom Leggings"
+    rarity: LEGENDARY
+    type: ARMOR
+    stats: {HEALTH: 153, DEFENSE: 76, CRIT_CHANCE: 8, STRENGTH: 42}
+    enchants: {PROTECTION: 5, GROWTH: 5}
+  venom_armor_boots:
+    material: CHAINMAIL_BOOTS
+    name: "Venom Boots"
+    rarity: LEGENDARY
+    type: ARMOR
+    stats: {HEALTH: 90, DEFENSE: 45, CRIT_CHANCE: 5, STRENGTH: 25, SPEED: 25}
+    enchants: {PROTECTION: 5, GROWTH: 5, SUGAR_RUSH: 3}

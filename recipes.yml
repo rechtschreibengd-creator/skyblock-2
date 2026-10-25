@@ -1,0 +1,913 @@
+recipes:
+  # ---- Enchanted Materialien: alle formlos (Mengen insgesamt) ----
+  enchanted_coal:
+    result: enchanted_coal
+    shapeless: true
+    ingredients: ["COAL*160"]
+  enchanted_iron:
+    result: enchanted_iron
+    shapeless: true
+    ingredients: ["IRON_INGOT*160"]
+  enchanted_gold:
+    result: enchanted_gold
+    shapeless: true
+    ingredients: ["GOLD_INGOT*160"]
+  enchanted_redstone:
+    result: enchanted_redstone
+    shapeless: true
+    ingredients: ["REDSTONE*160"]
+  enchanted_lapis:
+    result: enchanted_lapis
+    shapeless: true
+    ingredients: ["LAPIS_LAZULI*160"]
+  enchanted_diamond:
+    result: enchanted_diamond
+    shapeless: true
+    ingredients: ["DIAMOND*64"]
+  enchanted_emerald:
+    result: enchanted_emerald
+    shapeless: true
+    ingredients: ["EMERALD*64"]
+  enchanted_quartz:
+    result: enchanted_quartz
+    shapeless: true
+    ingredients: ["QUARTZ*64"]
+  enchanted_obsidian:
+    result: enchanted_obsidian
+    shapeless: true
+    ingredients: ["OBSIDIAN*64"]
+  enchanted_glowstone:
+    result: enchanted_glowstone
+    shapeless: true
+    ingredients: ["GLOWSTONE_DUST*128"]
+  enchanted_ender_pearl:
+    result: enchanted_ender_pearl
+    shapeless: true
+    ingredients: ["ENDER_PEARL*16"]
+  enchanted_blaze_rod:
+    result: enchanted_blaze_rod
+    shapeless: true
+    ingredients: ["BLAZE_ROD*32"]
+  enchanted_ghast_tear:
+    result: enchanted_ghast_tear
+    shapeless: true
+    ingredients: ["GHAST_TEAR*12"]
+  enchanted_bone:
+    result: enchanted_bone
+    shapeless: true
+    ingredients: ["BONE*160"]
+  enchanted_rotten_flesh:
+    result: enchanted_rotten_flesh
+    shapeless: true
+    ingredients: ["ROTTEN_FLESH*160"]
+  enchanted_string:
+    result: enchanted_string
+    shapeless: true
+    ingredients: ["STRING*160"]
+  enchanted_spider_eye:
+    result: enchanted_spider_eye
+    shapeless: true
+    ingredients: ["SPIDER_EYE*128"]
+  enchanted_gunpowder:
+    result: enchanted_gunpowder
+    shapeless: true
+    ingredients: ["GUNPOWDER*160"]
+  enchanted_slime_ball:
+    result: enchanted_slime_ball
+    shapeless: true
+    ingredients: ["SLIME_BALL*128"]
+  enchanted_ancient_debris:
+    result: enchanted_ancient_debris
+    shapeless: true
+    ingredients: ["ANCIENT_DEBRIS*8"]
+  enchanted_wheat:
+    result: enchanted_wheat
+    shapeless: true
+    ingredients: ["WHEAT*160"]
+  enchanted_leather:
+    result: enchanted_leather
+    shapeless: true
+    ingredients: ["LEATHER*128"]
+  enchanted_feather:
+    result: enchanted_feather
+    shapeless: true
+    ingredients: ["FEATHER*128"]
+  enchanted_cobblestone:
+    result: enchanted_cobblestone
+    shapeless: true
+    ingredients: ["COBBLESTONE*512"]
+  enchanted_log:
+    result: enchanted_log
+    shapeless: true
+    ingredients: ["OAK_LOG*128"]
+  enchanted_prismarine:
+    result: enchanted_prismarine
+    shapeless: true
+    ingredients: ["PRISMARINE_SHARD*64"]
+  enchanted_magma_cream:
+    result: enchanted_magma_cream
+    shapeless: true
+    ingredients: ["MAGMA_CREAM*64"]
+  enchanted_nether_wart:
+    result: enchanted_nether_wart
+    shapeless: true
+    ingredients: ["NETHER_WART*160"]
+  enchanted_cactus:
+    result: enchanted_cactus
+    shapeless: true
+    ingredients: ["CACTUS*128"]
+  # ---- Komponenten ----
+  wither_catalyst:
+    result: wither_catalyst
+    shape: ["AA", "AA"]
+    ingredients: {A: "enchanted_coal*1"}
+  titan_alloy:
+    result: titan_alloy
+    shape: ["II", "IG"]
+    ingredients: {I: "enchanted_iron*1", G: "enchanted_gold*1"}
+  ender_core:
+    result: ender_core
+    shape: [" P ", "PDP", " P "]
+    ingredients: {P: "enchanted_ender_pearl*1", D: "enchanted_diamond*1"}
+  blazing_core:
+    result: blazing_core
+    shapeless: true
+    ingredients: ["enchanted_blaze_rod*1", "enchanted_magma_cream*1", "enchanted_coal*1"]
+  arcane_crystal:
+    result: arcane_crystal
+    shape: [" Q ", "QLQ", " Q "]
+    ingredients: {Q: "enchanted_quartz*1", L: "enchanted_lapis*1"}
+  frost_core:
+    result: frost_core
+    shapeless: true
+    ingredients: ["BLUE_ICE*32", "enchanted_diamond*1"]
+  spider_silk_weave:
+    result: spider_silk_weave
+    shapeless: true
+    ingredients: ["enchanted_string*2", "enchanted_spider_eye*1"]
+  necrotic_essence:
+    result: necrotic_essence
+    shapeless: true
+    ingredients: ["enchanted_rotten_flesh*2", "enchanted_bone*1"]
+  wither_essence:
+    result: wither_essence
+    shapeless: true
+    ingredients: ["NETHER_STAR*1", "enchanted_gold*2"]
+  # ---- Waffen ----
+  starter_sword:
+    result: starter_sword
+    shape: ["W", "W", "S"]
+    ingredients: {W: "OAK_PLANKS*4", S: "STICK*2"}
+  stone_blade:
+    result: stone_blade
+    shape: ["C", "C", "S"]
+    ingredients: {C: "COBBLESTONE*16", S: "STICK*2"}
+  rogue_sword:
+    result: rogue_sword
+    shape: ["G", "G", "S"]
+    ingredients: {G: "GOLD_INGOT*24", S: "STICK*2"}
+  undead_sword:
+    result: undead_sword
+    shape: ["R", "R", "S"]
+    ingredients: {R: "ROTTEN_FLESH*32", S: "STICK*2"}
+  iron_claymore:
+    result: iron_claymore
+    shape: ["I", "I", "S"]
+    ingredients: {I: "IRON_INGOT*32", S: "STICK*4"}
+  golden_greatsword:
+    result: golden_greatsword
+    shape: ["G", "G", "S"]
+    ingredients: {G: "GOLD_INGOT*32", S: "STICK*4"}
+  emerald_blade:
+    result: emerald_blade
+    shape: ["E", "E", "S"]
+    ingredients: {E: "enchanted_emerald*1", S: "STICK*8"}
+  zombie_sword:
+    result: zombie_sword
+    shape: ["R", "R", "S"]
+    ingredients: {R: "enchanted_rotten_flesh*1", S: "STICK*4"}
+  spider_sword:
+    result: spider_sword
+    shape: ["E", "E", "S"]
+    ingredients: {E: "enchanted_spider_eye*1", S: "STICK*4"}
+  reaper_blade:
+    result: reaper_blade
+    shape: ["D", "N", "S"]
+    ingredients: {D: "enchanted_diamond*2", N: "foul_flesh*4", S: "STICK*8"}
+  aspect_of_the_end:
+    result: aspect_of_the_end
+    shape: ["P", "P", "D"]
+    ingredients: {P: "enchanted_ender_pearl*2", D: "enchanted_diamond*1"}
+  ender_blade:
+    result: ender_blade
+    shape: ["C", "C", "S"]
+    ingredients: {C: "ender_core*1", S: "enchanted_diamond*1"}
+  glacial_blade:
+    result: glacial_blade
+    shape: ["F", "F", "S"]
+    ingredients: {F: "frost_core*1", S: "enchanted_diamond*1"}
+  frozen_scythe:
+    result: frozen_scythe
+    shape: ["FF", " S", " S"]
+    ingredients: {F: "frost_core*1", S: "STICK*8"}
+  shadow_dagger:
+    result: shadow_dagger
+    shape: ["E", "D", "S"]
+    ingredients: {E: "ender_core*1", D: "enchanted_diamond*2", S: "wither_catalyst*1"}
+  titan_hammer:
+    result: titan_hammer
+    shape: ["TT", "TS", " S"]
+    ingredients: {T: "titan_alloy*2", S: "STICK*16"}
+  giants_sword:
+    result: giants_sword
+    shape: ["I", "I", "S"]
+    ingredients: {I: "enchanted_iron*3", S: "titan_alloy*1"}
+  wither_blade:
+    result: wither_blade
+    shape: ["C", "C", "S"]
+    ingredients: {C: "wither_catalyst*2", S: "enchanted_diamond*2"}
+  heros_blade:
+    result: heros_blade
+    shape: ["W", "W", "S"]
+    ingredients: {W: "wither_essence*1", S: "enchanted_diamond*1"}
+  void_sword:
+    result: void_sword
+    shape: ["V", "V", "S"]
+    ingredients: {V: "ender_core*2", S: "wither_essence*1"}
+  poseidons_trident:
+    result: poseidons_trident
+    shape: ["PPP", " S ", " S "]
+    ingredients: {P: "enchanted_prismarine*1", S: "STICK*16"}
+  executioners_axe:
+    result: executioners_axe
+    shape: ["AA", "AS", " S"]
+    ingredients: {A: "necrotic_essence*2", S: "STICK*8"}
+  executioner_blade:
+    result: executioner_blade
+    shape: ["N", "D", "B"]
+    ingredients: {N: "NETHERITE_INGOT*1", D: "enchanted_diamond*1", B: "BLAZE_ROD*8"}
+  mythic_blade:
+    result: mythic_blade
+    shape: ["V", "H", "W"]
+    ingredients: {V: "void_sword*1", H: "heros_blade*1", W: "wither_blade*1"}
+  hunter_bow:
+    result: hunter_bow
+    shape: [" BS", "B S", " BS"]
+    ingredients: {B: "enchanted_bone*1", S: "STRING*32"}
+  skeleton_bow:
+    result: skeleton_bow
+    shape: [" BS", "B S", " BS"]
+    ingredients: {B: "BONE*16", S: "STRING*16"}
+  crossbow_of_doom:
+    result: crossbow_of_doom
+    shape: ["ISI", "ECE", " B "]
+    ingredients: {I: "enchanted_iron*1", S: "enchanted_string*1", E: "enchanted_gunpowder*1", C: "ender_core*1", B: "enchanted_bone*1"}
+  sniper_bow:
+    result: sniper_bow
+    shape: [" BS", "DKS", " BS"]
+    ingredients: {B: "enchanted_bone*2", S: "enchanted_string*2", D: "ender_core*1", K: "skeleton_master_core*1"}
+  wand_of_healing:
+    result: wand_of_healing
+    shape: [" G", " S"]
+    ingredients: {G: "GOLDEN_APPLE*4", S: "STICK*8"}
+  wand_of_restoration:
+    result: wand_of_restoration
+    shapeless: true
+    ingredients: ["wand_of_healing*1", "enchanted_gold*1", "enchanted_lapis*1"]
+  wand_of_atonement:
+    result: wand_of_atonement
+    shapeless: true
+    ingredients: ["wand_of_restoration*1", "enchanted_diamond*2", "enchanted_ghast_tear*1"]
+  frost_wand:
+    result: frost_wand
+    shape: [" F", " S"]
+    ingredients: {F: "frost_core*1", S: "STICK*8"}
+  aspect_of_the_void:
+    result: aspect_of_the_void
+    shape: ["A", "T"]
+    ingredients: {A: "aspect_of_the_end*1", T: "transmission_tuner*1"}
+  reaper_falchion:
+    result: reaper_falchion
+    shape: ["B", "C", "D"]
+    ingredients: {B: "scythe_blade*1", C: "undead_catalyst*1", D: "enchanted_diamond*2"}
+  voidedge_katana:
+    result: voidedge_katana
+    shape: ["H", "E", "S"]
+    ingredients: {H: "void_blade_hilt*1", E: "ender_core*1", S: "enchanted_diamond*2"}
+  bone_reaper_bow:
+    result: bone_reaper_bow
+    shape: [" BS", "HKS", " BS"]
+    ingredients: {B: "calcified_bone*1", S: "enchanted_string*2", H: "bonemerang_head*1", K: "skeleton_master_core*1"}
+  queens_stinger:
+    result: queens_stinger
+    shape: ["Q", "V", "S"]
+    ingredients: {Q: "queens_crown*1", V: "venom_gland*1", S: "enchanted_diamond*2"}
+  tarantula_sword:
+    result: tarantula_sword
+    shape: ["T", "G", "S"]
+    ingredients: {T: "tarantula_web*2", G: "venom_gland*1", S: "STICK*8"}
+  soulbinder_sickle:
+    result: soulbinder_sickle
+    shape: ["NN", " S", " S"]
+    ingredients: {N: "necrotic_essence*2", S: "STICK*8"}
+  meteor_staff:
+    result: meteor_staff
+    shape: [" B", "MB", "S "]
+    ingredients: {B: "enchanted_blaze_rod*1", M: "blazing_core*1", S: "STICK*16"}
+  thunderlord_sword:
+    result: thunderlord_sword
+    shape: ["W", "S", "D"]
+    ingredients: {W: "wither_catalyst*2", S: "enchanted_redstone*2", D: "enchanted_diamond*2"}
+  leaping_sword:
+    result: leaping_sword
+    shape: ["F", "I", "S"]
+    ingredients: {F: "enchanted_feather*1", I: "enchanted_iron*2", S: "STICK*8"}
+  grappling_hook:
+    result: grappling_hook
+    shape: ["  S", " SL", "S L"]
+    ingredients: {S: "STICK*8", L: "STRING*32"}
+  berserker_axe:
+    result: berserker_axe
+    shape: ["BB", "BS", " S"]
+    ingredients: {B: "blazing_core*1", S: "enchanted_iron*2"}
+  staff_of_life:
+    result: staff_of_life
+    shape: [" G", " S", "S "]
+    ingredients: {G: "enchanted_gold*1", S: "STICK*16"}
+  aegis_wand:
+    result: aegis_wand
+    shape: [" W", " S", "S "]
+    ingredients: {W: "wither_catalyst*1", S: "enchanted_iron*1"}
+  gravity_scepter:
+    result: gravity_scepter
+    shape: [" O", " S", "S "]
+    ingredients: {O: "enchanted_obsidian*1", S: "ender_core*1"}
+  mana_gem:
+    result: mana_gem
+    shape: ["AA", "AA"]
+    ingredients: {A: "AMETHYST_SHARD*16"}
+  phantom_blade:
+    result: phantom_blade
+    shape: ["E", "S", "B"]
+    ingredients: {E: "enchanted_ender_pearl*1", S: "spider_silk_weave*1", B: "STICK*8"}
+  # ---- Werkzeuge ----
+  rookie_pickaxe:
+    result: rookie_pickaxe
+    shape: ["CCC", " S ", " S "]
+    ingredients: {C: "COBBLESTONE*16", S: "STICK*2"}
+  gold_pickaxe:
+    result: gold_pickaxe
+    shape: ["GGG", " S ", " S "]
+    ingredients: {G: "GOLD_INGOT*16", S: "STICK*2"}
+  miner_pickaxe:
+    result: miner_pickaxe
+    shape: ["III", " S ", " S "]
+    ingredients: {I: "enchanted_iron*1", S: "STICK*4"}
+  stonk:
+    result: stonk
+    shape: ["TTT", " S ", " S "]
+    ingredients: {T: "titan_alloy*1", S: "STICK*8"}
+  titanium_drill:
+    result: titanium_drill
+    shape: ["TTT", "TDT", " E "]
+    ingredients: {T: "titan_alloy*2", D: "enchanted_diamond*2", E: "blazing_core*1"}
+  lumberjack_axe:
+    result: lumberjack_axe
+    shape: ["LL", "LS", " S"]
+    ingredients: {L: "OAK_LOG*16", S: "STICK*2"}
+  jungle_axe:
+    result: jungle_axe
+    shape: ["JJ", "JS", " S"]
+    ingredients: {J: "JUNGLE_LOG*16", S: "STICK*2"}
+  treefellers_axe:
+    result: treefellers_axe
+    shape: ["EE", "ES", " S"]
+    ingredients: {E: "enchanted_log*1", S: "STICK*8"}
+  rookie_hoe:
+    result: rookie_hoe
+    shape: ["WW", " S", " S"]
+    ingredients: {W: "WHEAT*16", S: "STICK*2"}
+  farmers_hoe:
+    result: farmers_hoe
+    shape: ["EE", " S", " S"]
+    ingredients: {E: "enchanted_wheat*1", S: "STICK*8"}
+  advanced_hoe:
+    result: advanced_hoe
+    shape: ["EE", "DS", " S"]
+    ingredients: {E: "enchanted_wheat*2", D: "enchanted_diamond*1", S: "STICK*16"}
+  rod_of_the_sea:
+    result: rod_of_the_sea
+    shape: ["  P", " PT", "P T"]
+    ingredients: {P: "enchanted_prismarine*1", T: "enchanted_string*1"}
+  farmers_rod:
+    result: farmers_rod
+    shape: ["  S", " ST", "S T"]
+    ingredients: {S: "STICK*4", T: "STRING*32"}
+  # ---- Ruestungen: Helm/Brust/Hose/Stiefel ----
+  miner_helmet:
+    result: miner_helmet
+    shape: ["XXX", "XCX"]
+    ingredients: {X: "IRON_INGOT*24", C: "enchanted_iron*1"}
+  miner_chestplate:
+    result: miner_chestplate
+    shape: ["XCX", "XXX", "XXX"]
+    ingredients: {X: "IRON_INGOT*24", C: "enchanted_iron*1"}
+  miner_leggings:
+    result: miner_leggings
+    shape: ["XXX", "XCX", "X X"]
+    ingredients: {X: "IRON_INGOT*24", C: "enchanted_iron*1"}
+  miner_boots:
+    result: miner_boots
+    shape: ["XCX", "X X"]
+    ingredients: {X: "IRON_INGOT*24", C: "enchanted_iron*1"}
+  leaf_helmet:
+    result: leaf_helmet
+    shape: ["XXX", "XCX"]
+    ingredients: {X: "OAK_LEAVES*32", C: "enchanted_log*1"}
+  leaf_chestplate:
+    result: leaf_chestplate
+    shape: ["XCX", "XXX", "XXX"]
+    ingredients: {X: "OAK_LEAVES*32", C: "enchanted_log*1"}
+  leaf_leggings:
+    result: leaf_leggings
+    shape: ["XXX", "XCX", "X X"]
+    ingredients: {X: "OAK_LEAVES*32", C: "enchanted_log*1"}
+  leaf_boots:
+    result: leaf_boots
+    shape: ["XCX", "X X"]
+    ingredients: {X: "OAK_LEAVES*32", C: "enchanted_log*1"}
+  farm_suit_helmet:
+    result: farm_suit_helmet
+    shape: ["XXX", "XCX"]
+    ingredients: {X: "WHEAT*32", C: "enchanted_wheat*1"}
+  farm_suit_chestplate:
+    result: farm_suit_chestplate
+    shape: ["XCX", "XXX", "XXX"]
+    ingredients: {X: "WHEAT*32", C: "enchanted_wheat*1"}
+  farm_suit_leggings:
+    result: farm_suit_leggings
+    shape: ["XXX", "XCX", "X X"]
+    ingredients: {X: "WHEAT*32", C: "enchanted_wheat*1"}
+  farm_suit_boots:
+    result: farm_suit_boots
+    shape: ["XCX", "X X"]
+    ingredients: {X: "WHEAT*32", C: "enchanted_wheat*1"}
+  cactus_helmet:
+    result: cactus_helmet
+    shape: ["XXX", "XCX"]
+    ingredients: {X: "CACTUS*32", C: "enchanted_cactus*1"}
+  cactus_chestplate:
+    result: cactus_chestplate
+    shape: ["XCX", "XXX", "XXX"]
+    ingredients: {X: "CACTUS*32", C: "enchanted_cactus*1"}
+  cactus_leggings:
+    result: cactus_leggings
+    shape: ["XXX", "XCX", "X X"]
+    ingredients: {X: "CACTUS*32", C: "enchanted_cactus*1"}
+  cactus_boots:
+    result: cactus_boots
+    shape: ["XCX", "X X"]
+    ingredients: {X: "CACTUS*32", C: "enchanted_cactus*1"}
+  lapis_helmet:
+    result: lapis_helmet
+    shape: ["XXX", "XCX"]
+    ingredients: {X: "LAPIS_LAZULI*32", C: "enchanted_gold*1"}
+  lapis_chestplate:
+    result: lapis_chestplate
+    shape: ["XCX", "XXX", "XXX"]
+    ingredients: {X: "LAPIS_LAZULI*32", C: "enchanted_gold*1"}
+  lapis_leggings:
+    result: lapis_leggings
+    shape: ["XXX", "XCX", "X X"]
+    ingredients: {X: "LAPIS_LAZULI*32", C: "enchanted_gold*1"}
+  lapis_boots:
+    result: lapis_boots
+    shape: ["XCX", "X X"]
+    ingredients: {X: "LAPIS_LAZULI*32", C: "enchanted_gold*1"}
+  speedster_helmet:
+    result: speedster_helmet
+    shape: ["XXX", "XCX"]
+    ingredients: {X: "SUGAR*32", C: "enchanted_feather*1"}
+  speedster_chestplate:
+    result: speedster_chestplate
+    shape: ["XCX", "XXX", "XXX"]
+    ingredients: {X: "SUGAR*32", C: "enchanted_feather*1"}
+  speedster_leggings:
+    result: speedster_leggings
+    shape: ["XXX", "XCX", "X X"]
+    ingredients: {X: "SUGAR*32", C: "enchanted_feather*1"}
+  speedster_boots:
+    result: speedster_boots
+    shape: ["XCX", "X X"]
+    ingredients: {X: "SUGAR*32", C: "enchanted_feather*1"}
+  young_dragon_helmet:
+    result: young_dragon_helmet
+    shape: ["XXX", "XCX"]
+    ingredients: {X: "OBSIDIAN*16", C: "ender_core*1"}
+  young_dragon_chestplate:
+    result: young_dragon_chestplate
+    shape: ["XCX", "XXX", "XXX"]
+    ingredients: {X: "OBSIDIAN*16", C: "ender_core*1"}
+  young_dragon_leggings:
+    result: young_dragon_leggings
+    shape: ["XXX", "XCX", "X X"]
+    ingredients: {X: "OBSIDIAN*16", C: "ender_core*1"}
+  young_dragon_boots:
+    result: young_dragon_boots
+    shape: ["XCX", "X X"]
+    ingredients: {X: "OBSIDIAN*16", C: "ender_core*1"}
+  strong_dragon_helmet:
+    result: strong_dragon_helmet
+    shape: ["XXX", "XCX"]
+    ingredients: {X: "enchanted_obsidian*1", C: "ender_core*2"}
+  strong_dragon_chestplate:
+    result: strong_dragon_chestplate
+    shape: ["XCX", "XXX", "XXX"]
+    ingredients: {X: "enchanted_obsidian*1", C: "ender_core*2"}
+  strong_dragon_leggings:
+    result: strong_dragon_leggings
+    shape: ["XXX", "XCX", "X X"]
+    ingredients: {X: "enchanted_obsidian*1", C: "ender_core*2"}
+  strong_dragon_boots:
+    result: strong_dragon_boots
+    shape: ["XCX", "X X"]
+    ingredients: {X: "enchanted_obsidian*1", C: "ender_core*2"}
+  dragon_helmet:
+    result: dragon_helmet
+    shape: ["XXX", "XCX"]
+    ingredients: {X: "enchanted_diamond*1", C: "ender_core*1"}
+  dragon_chestplate:
+    result: dragon_chestplate
+    shape: ["XCX", "XXX", "XXX"]
+    ingredients: {X: "enchanted_diamond*1", C: "ender_core*1"}
+  dragon_leggings:
+    result: dragon_leggings
+    shape: ["XXX", "XCX", "X X"]
+    ingredients: {X: "enchanted_diamond*1", C: "ender_core*1"}
+  dragon_boots:
+    result: dragon_boots
+    shape: ["XCX", "X X"]
+    ingredients: {X: "enchanted_diamond*1", C: "ender_core*1"}
+  mage_helmet:
+    result: mage_helmet
+    shape: ["XXX", "XCX"]
+    ingredients: {X: "AMETHYST_SHARD*32", C: "arcane_crystal*1"}
+  mage_chestplate:
+    result: mage_chestplate
+    shape: ["XCX", "XXX", "XXX"]
+    ingredients: {X: "AMETHYST_SHARD*32", C: "arcane_crystal*1"}
+  mage_leggings:
+    result: mage_leggings
+    shape: ["XXX", "XCX", "X X"]
+    ingredients: {X: "AMETHYST_SHARD*32", C: "arcane_crystal*1"}
+  mage_boots:
+    result: mage_boots
+    shape: ["XCX", "X X"]
+    ingredients: {X: "AMETHYST_SHARD*32", C: "arcane_crystal*1"}
+  berserk_helmet:
+    result: berserk_helmet
+    shape: ["XXX", "XCX"]
+    ingredients: {X: "enchanted_iron*1", C: "blazing_core*1"}
+  berserk_chestplate:
+    result: berserk_chestplate
+    shape: ["XCX", "XXX", "XXX"]
+    ingredients: {X: "enchanted_iron*1", C: "blazing_core*1"}
+  berserk_leggings:
+    result: berserk_leggings
+    shape: ["XXX", "XCX", "X X"]
+    ingredients: {X: "enchanted_iron*1", C: "blazing_core*1"}
+  berserk_boots:
+    result: berserk_boots
+    shape: ["XCX", "X X"]
+    ingredients: {X: "enchanted_iron*1", C: "blazing_core*1"}
+  tank_helmet:
+    result: tank_helmet
+    shape: ["XXX", "XCX"]
+    ingredients: {X: "IRON_BLOCK*8", C: "titan_alloy*1"}
+  tank_chestplate:
+    result: tank_chestplate
+    shape: ["XCX", "XXX", "XXX"]
+    ingredients: {X: "IRON_BLOCK*8", C: "titan_alloy*1"}
+  tank_leggings:
+    result: tank_leggings
+    shape: ["XXX", "XCX", "X X"]
+    ingredients: {X: "IRON_BLOCK*8", C: "titan_alloy*1"}
+  tank_boots:
+    result: tank_boots
+    shape: ["XCX", "X X"]
+    ingredients: {X: "IRON_BLOCK*8", C: "titan_alloy*1"}
+  assassin_helmet:
+    result: assassin_helmet
+    shape: ["XXX", "XCX"]
+    ingredients: {X: "enchanted_string*1", C: "ender_core*1"}
+  assassin_chestplate:
+    result: assassin_chestplate
+    shape: ["XCX", "XXX", "XXX"]
+    ingredients: {X: "enchanted_string*1", C: "ender_core*1"}
+  assassin_leggings:
+    result: assassin_leggings
+    shape: ["XXX", "XCX", "X X"]
+    ingredients: {X: "enchanted_string*1", C: "ender_core*1"}
+  assassin_boots:
+    result: assassin_boots
+    shape: ["XCX", "X X"]
+    ingredients: {X: "enchanted_string*1", C: "ender_core*1"}
+  wither_armor_helmet:
+    result: wither_armor_helmet
+    shape: ["XXX", "XCX"]
+    ingredients: {X: "enchanted_coal*1", C: "wither_catalyst*1"}
+  wither_armor_chestplate:
+    result: wither_armor_chestplate
+    shape: ["XCX", "XXX", "XXX"]
+    ingredients: {X: "enchanted_coal*1", C: "wither_catalyst*1"}
+  wither_armor_leggings:
+    result: wither_armor_leggings
+    shape: ["XXX", "XCX", "X X"]
+    ingredients: {X: "enchanted_coal*1", C: "wither_catalyst*1"}
+  wither_armor_boots:
+    result: wither_armor_boots
+    shape: ["XCX", "X X"]
+    ingredients: {X: "enchanted_coal*1", C: "wither_catalyst*1"}
+  zombie_armor_helmet:
+    result: zombie_armor_helmet
+    shape: ["XXX", "XCX"]
+    ingredients: {X: "ROTTEN_FLESH*32", C: "necrotic_essence*1"}
+  zombie_armor_chestplate:
+    result: zombie_armor_chestplate
+    shape: ["XCX", "XXX", "XXX"]
+    ingredients: {X: "ROTTEN_FLESH*32", C: "necrotic_essence*1"}
+  zombie_armor_leggings:
+    result: zombie_armor_leggings
+    shape: ["XXX", "XCX", "X X"]
+    ingredients: {X: "ROTTEN_FLESH*32", C: "necrotic_essence*1"}
+  zombie_armor_boots:
+    result: zombie_armor_boots
+    shape: ["XCX", "X X"]
+    ingredients: {X: "ROTTEN_FLESH*32", C: "necrotic_essence*1"}
+  spider_armor_helmet:
+    result: spider_armor_helmet
+    shape: ["XXX", "XCX"]
+    ingredients: {X: "STRING*32", C: "spider_silk_weave*1"}
+  spider_armor_chestplate:
+    result: spider_armor_chestplate
+    shape: ["XCX", "XXX", "XXX"]
+    ingredients: {X: "STRING*32", C: "spider_silk_weave*1"}
+  spider_armor_leggings:
+    result: spider_armor_leggings
+    shape: ["XXX", "XCX", "X X"]
+    ingredients: {X: "STRING*32", C: "spider_silk_weave*1"}
+  spider_armor_boots:
+    result: spider_armor_boots
+    shape: ["XCX", "X X"]
+    ingredients: {X: "STRING*32", C: "spider_silk_weave*1"}
+  bone_armor_helmet:
+    result: bone_armor_helmet
+    shape: ["XXX", "XCX"]
+    ingredients: {X: "BONE*32", C: "enchanted_bone*1"}
+  bone_armor_chestplate:
+    result: bone_armor_chestplate
+    shape: ["XCX", "XXX", "XXX"]
+    ingredients: {X: "BONE*32", C: "enchanted_bone*1"}
+  bone_armor_leggings:
+    result: bone_armor_leggings
+    shape: ["XXX", "XCX", "X X"]
+    ingredients: {X: "BONE*32", C: "enchanted_bone*1"}
+  bone_armor_boots:
+    result: bone_armor_boots
+    shape: ["XCX", "X X"]
+    ingredients: {X: "BONE*32", C: "enchanted_bone*1"}
+  ender_armor_helmet:
+    result: ender_armor_helmet
+    shape: ["XXX", "XCX"]
+    ingredients: {X: "ENDER_PEARL*8", C: "ender_core*1"}
+  ender_armor_chestplate:
+    result: ender_armor_chestplate
+    shape: ["XCX", "XXX", "XXX"]
+    ingredients: {X: "ENDER_PEARL*8", C: "ender_core*1"}
+  ender_armor_leggings:
+    result: ender_armor_leggings
+    shape: ["XXX", "XCX", "X X"]
+    ingredients: {X: "ENDER_PEARL*8", C: "ender_core*1"}
+  ender_armor_boots:
+    result: ender_armor_boots
+    shape: ["XCX", "X X"]
+    ingredients: {X: "ENDER_PEARL*8", C: "ender_core*1"}
+  magma_armor_helmet:
+    result: magma_armor_helmet
+    shape: ["XXX", "XCX"]
+    ingredients: {X: "MAGMA_BLOCK*16", C: "blazing_core*1"}
+  magma_armor_chestplate:
+    result: magma_armor_chestplate
+    shape: ["XCX", "XXX", "XXX"]
+    ingredients: {X: "MAGMA_BLOCK*16", C: "blazing_core*1"}
+  magma_armor_leggings:
+    result: magma_armor_leggings
+    shape: ["XXX", "XCX", "X X"]
+    ingredients: {X: "MAGMA_BLOCK*16", C: "blazing_core*1"}
+  magma_armor_boots:
+    result: magma_armor_boots
+    shape: ["XCX", "X X"]
+    ingredients: {X: "MAGMA_BLOCK*16", C: "blazing_core*1"}
+  emerald_armor_helmet:
+    result: emerald_armor_helmet
+    shape: ["XXX", "XCX"]
+    ingredients: {X: "EMERALD*16", C: "enchanted_emerald*1"}
+  emerald_armor_chestplate:
+    result: emerald_armor_chestplate
+    shape: ["XCX", "XXX", "XXX"]
+    ingredients: {X: "EMERALD*16", C: "enchanted_emerald*1"}
+  emerald_armor_leggings:
+    result: emerald_armor_leggings
+    shape: ["XXX", "XCX", "X X"]
+    ingredients: {X: "EMERALD*16", C: "enchanted_emerald*1"}
+  emerald_armor_boots:
+    result: emerald_armor_boots
+    shape: ["XCX", "X X"]
+    ingredients: {X: "EMERALD*16", C: "enchanted_emerald*1"}
+  frost_armor_helmet:
+    result: frost_armor_helmet
+    shape: ["XXX", "XCX"]
+    ingredients: {X: "SNOW_BLOCK*32", C: "frost_core*1"}
+  frost_armor_chestplate:
+    result: frost_armor_chestplate
+    shape: ["XCX", "XXX", "XXX"]
+    ingredients: {X: "SNOW_BLOCK*32", C: "frost_core*1"}
+  frost_armor_leggings:
+    result: frost_armor_leggings
+    shape: ["XXX", "XCX", "X X"]
+    ingredients: {X: "SNOW_BLOCK*32", C: "frost_core*1"}
+  frost_armor_boots:
+    result: frost_armor_boots
+    shape: ["XCX", "X X"]
+    ingredients: {X: "SNOW_BLOCK*32", C: "frost_core*1"}
+  revenant_armor_helmet:
+    result: revenant_armor_helmet
+    shape: ["XXX", "XCX"]
+    ingredients: {X: "revenant_flesh*8", C: "revenant_viscera*1"}
+  revenant_armor_chestplate:
+    result: revenant_armor_chestplate
+    shape: ["XCX", "XXX", "XXX"]
+    ingredients: {X: "revenant_flesh*8", C: "revenant_viscera*1"}
+  revenant_armor_leggings:
+    result: revenant_armor_leggings
+    shape: ["XXX", "XCX", "X X"]
+    ingredients: {X: "revenant_flesh*8", C: "revenant_viscera*1"}
+  revenant_armor_boots:
+    result: revenant_armor_boots
+    shape: ["XCX", "X X"]
+    ingredients: {X: "revenant_flesh*8", C: "revenant_viscera*1"}
+  void_armor_helmet:
+    result: void_armor_helmet
+    shape: ["XXX", "XCX"]
+    ingredients: {X: "void_fragment*8", C: "null_ovoid*1"}
+  void_armor_chestplate:
+    result: void_armor_chestplate
+    shape: ["XCX", "XXX", "XXX"]
+    ingredients: {X: "void_fragment*8", C: "null_ovoid*1"}
+  void_armor_leggings:
+    result: void_armor_leggings
+    shape: ["XXX", "XCX", "X X"]
+    ingredients: {X: "void_fragment*8", C: "null_ovoid*1"}
+  void_armor_boots:
+    result: void_armor_boots
+    shape: ["XCX", "X X"]
+    ingredients: {X: "void_fragment*8", C: "null_ovoid*1"}
+  bone_reaper_armor_helmet:
+    result: bone_reaper_armor_helmet
+    shape: ["XXX", "XCX"]
+    ingredients: {X: "bone_shard*8", C: "calcified_bone*1"}
+  bone_reaper_armor_chestplate:
+    result: bone_reaper_armor_chestplate
+    shape: ["XCX", "XXX", "XXX"]
+    ingredients: {X: "bone_shard*8", C: "calcified_bone*1"}
+  bone_reaper_armor_leggings:
+    result: bone_reaper_armor_leggings
+    shape: ["XXX", "XCX", "X X"]
+    ingredients: {X: "bone_shard*8", C: "calcified_bone*1"}
+  bone_reaper_armor_boots:
+    result: bone_reaper_armor_boots
+    shape: ["XCX", "X X"]
+    ingredients: {X: "bone_shard*8", C: "calcified_bone*1"}
+  venom_armor_helmet:
+    result: venom_armor_helmet
+    shape: ["XXX", "XCX"]
+    ingredients: {X: "spider_fang*8", C: "tarantula_web*1"}
+  venom_armor_chestplate:
+    result: venom_armor_chestplate
+    shape: ["XCX", "XXX", "XXX"]
+    ingredients: {X: "spider_fang*8", C: "tarantula_web*1"}
+  venom_armor_leggings:
+    result: venom_armor_leggings
+    shape: ["XXX", "XCX", "X X"]
+    ingredients: {X: "spider_fang*8", C: "tarantula_web*1"}
+  venom_armor_boots:
+    result: venom_armor_boots
+    shape: ["XCX", "X X"]
+    ingredients: {X: "spider_fang*8", C: "tarantula_web*1"}
+  scholar_chestplate:
+    result: scholar_chestplate
+    shape: ["XCX", "XXX", "XXX"]
+    ingredients: {X: "AMETHYST_SHARD*24", C: "arcane_crystal*2"}
+  # ---- Pets (nur COMMON craftbar, hoehere Raritaeten droppen von Bossen) ----
+  pet_wolf_common:
+    result: pet_wolf_common
+    shapeless: true
+    ingredients: ["enchanted_bone*2", "enchanted_rotten_flesh*1", "COOKED_BEEF*32"]
+  pet_zombie_common:
+    result: pet_zombie_common
+    shapeless: true
+    ingredients: ["enchanted_rotten_flesh*3", "necrotic_essence*1"]
+  pet_spider_common:
+    result: pet_spider_common
+    shapeless: true
+    ingredients: ["enchanted_string*2", "enchanted_spider_eye*2"]
+  pet_skeleton_common:
+    result: pet_skeleton_common
+    shapeless: true
+    ingredients: ["enchanted_bone*3", "enchanted_string*1"]
+  pet_bee_common:
+    result: pet_bee_common
+    shapeless: true
+    ingredients: ["HONEYCOMB*64", "enchanted_wheat*1"]
+  pet_elephant_common:
+    result: pet_elephant_common
+    shapeless: true
+    ingredients: ["enchanted_leather*2", "enchanted_wheat*2"]
+  pet_rock_common:
+    result: pet_rock_common
+    shapeless: true
+    ingredients: ["enchanted_cobblestone*2", "enchanted_coal*1"]
+  pet_squid_common:
+    result: pet_squid_common
+    shapeless: true
+    ingredients: ["INK_SAC*64", "enchanted_prismarine*1"]
+  pet_monkey_common:
+    result: pet_monkey_common
+    shapeless: true
+    ingredients: ["enchanted_log*2", "COCOA_BEANS*64"]
+  pet_golem_common:
+    result: pet_golem_common
+    shapeless: true
+    ingredients: ["enchanted_iron*3", "IRON_BLOCK*16", "POPPY*8"]
+  pet_enderman_common:
+    result: pet_enderman_common
+    shapeless: true
+    ingredients: ["enchanted_ender_pearl*3", "ender_core*1"]
+  pet_phoenix_common:
+    result: pet_phoenix_common
+    shapeless: true
+    ingredients: ["blazing_core*2", "enchanted_blaze_rod*2", "FEATHER*64"]
+  pet_tiger_common:
+    result: pet_tiger_common
+    shapeless: true
+    ingredients: ["enchanted_leather*1", "spider_silk_weave*1", "enchanted_bone*1"]
+  # ---- Boss-Beschwoerungen ----
+  summon_revenant:
+    result: summon_revenant
+    shape: [" F ", "FHF", " F "]
+    ingredients: {F: "enchanted_rotten_flesh*2", H: "ZOMBIE_HEAD*1"}
+  summon_void:
+    result: summon_void
+    shape: [" P ", "PCP", " P "]
+    ingredients: {P: "enchanted_ender_pearl*2", C: "ender_core*1"}
+  summon_bone:
+    result: summon_bone
+    shape: [" B ", "BSB", " B "]
+    ingredients: {B: "enchanted_bone*2", S: "SKELETON_SKULL*1"}
+  summon_venom:
+    result: summon_venom
+    shape: [" S ", "SES", " S "]
+    ingredients: {S: "enchanted_string*2", E: "enchanted_spider_eye*2"}
+  # ---- Talismane ----
+  feather_talisman:
+    result: feather_talisman
+    shape: [" F ", "FEF", " F "]
+    ingredients: {F: "FEATHER*32", E: "enchanted_feather*1"}
+  farming_talisman:
+    result: farming_talisman
+    shape: ["WWW", "WEW", "WWW"]
+    ingredients: {W: "WHEAT*16", E: "enchanted_wheat*1"}
+  lucky_clover:
+    result: lucky_clover
+    shape: ["LLL", "LGL", "LLL"]
+    ingredients: {L: "FERN*16", G: "enchanted_emerald*2"}
+  crit_ring:
+    result: crit_ring
+    shape: [" G ", "GDG", " G "]
+    ingredients: {G: "enchanted_gold*1", D: "enchanted_diamond*2"}
+  speed_ring:
+    result: speed_ring
+    shape: ["SSS", "SES", "SSS"]
+    ingredients: {S: "SUGAR*32", E: "enchanted_feather*2"}
+  magic_ring:
+    result: magic_ring
+    shape: [" A ", "AEA", " A "]
+    ingredients: {A: "AMETHYST_SHARD*32", E: "arcane_crystal*1"}
+  titan_talisman:
+    result: titan_talisman
+    shape: [" T ", "TNT", " T "]
+    ingredients: {T: "titan_alloy*2", N: "NETHERITE_INGOT*1"}
+  wither_relic:
+    result: wither_relic
+    shape: [" W ", "WSW", " W "]
+    ingredients: {W: "wither_essence*1", S: "wither_catalyst*2"}

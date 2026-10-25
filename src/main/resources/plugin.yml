@@ -1,0 +1,28 @@
+name: SkyblockTest
+version: 0.1.0
+main: dev.skyblocktest.SkyblockPlugin
+api-version: '26.2'
+description: Hypixel-SkyBlock-aehnliches Testplugin (Stats, Skills, Enchantments, Abilities)
+commands:
+  sb:
+    description: Hauptbefehl
+    aliases: [skyblock]
+    usage: /sb help
+  skills:
+    description: Skill-Menue
+  stats:
+    description: Zeigt deine Stats
+  pets:
+    description: Pet-Menue
+  craft:
+    description: SkyBlock Werkbank
+    aliases: [wb]
+  recipes:
+    description: Rezeptbuch
+  menu:
+    description: SkyBlock-Menue
+    aliases: [sbmenu]
+permissions:
+  skyblocktest.admin:
+    description: Admin-Befehle (give, enchant, setskill ...)
+    default: op

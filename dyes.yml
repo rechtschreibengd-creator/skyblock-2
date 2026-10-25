@@ -1,0 +1,199 @@
+# Dyes: Auf Lederruestung im Inventar anwenden. chance = Drop-Chance bei Bossen (0.2 = 20%).
+# animated: true -> Farben werden ineinander ueberblendet, speed = Ticks pro Farbwechsel.
+dyes:
+  coal_black:
+    name: "Coal Black"
+    colors: ["1b1b1b"]
+    chance: 0.2
+  snow_white:
+    name: "Snow White"
+    colors: ["f4f4f4"]
+    chance: 0.2
+  bright_red:
+    name: "Bright Red"
+    colors: ["e02424"]
+    chance: 0.15
+  forest_green:
+    name: "Forest Green"
+    colors: ["2f7d32"]
+    chance: 0.15
+  ocean_blue:
+    name: "Ocean Blue"
+    colors: ["1f5fbf"]
+    chance: 0.15
+  sunny_yellow:
+    name: "Sunny Yellow"
+    colors: ["f6d73c"]
+    chance: 0.12
+  tangerine:
+    name: "Tangerine"
+    colors: ["f28a1b"]
+    chance: 0.12
+  royal_purple:
+    name: "Royal Purple"
+    colors: ["6a2fb0"]
+    chance: 0.12
+  teal:
+    name: "Teal"
+    colors: ["1a9c93"]
+    chance: 0.09
+  rose_pink:
+    name: "Rose Pink"
+    colors: ["f06292"]
+    chance: 0.09
+  sky_cyan:
+    name: "Sky Cyan"
+    colors: ["4fd1f0"]
+    chance: 0.09
+  lime_zest:
+    name: "Lime Zest"
+    colors: ["9be22a"]
+    chance: 0.07
+  magenta_pop:
+    name: "Magenta Pop"
+    colors: ["d81b9c"]
+    chance: 0.07
+  chocolate:
+    name: "Chocolate"
+    colors: ["6d4326"]
+    chance: 0.07
+  neon_blue:
+    name: "Neon Blue"
+    colors: ["1f51ff"]
+    chance: 0.05
+  neon_green:
+    name: "Neon Green"
+    colors: ["39ff14"]
+    chance: 0.05
+  neon_pink:
+    name: "Neon Pink"
+    colors: ["ff2bd6"]
+    chance: 0.05
+  emerald_glow:
+    name: "Emerald Glow"
+    colors: ["00c46a"]
+    chance: 0.035
+  amber_gold:
+    name: "Amber Gold"
+    colors: ["ffb000"]
+    chance: 0.035
+  dragon_violet:
+    name: "Dragon Violet"
+    colors: ["8a2be2"]
+    chance: 0.035
+  sunset_orange:
+    name: "Sunset Orange"
+    colors: ["ff5e3a"]
+    chance: 0.025
+  mint_frost:
+    name: "Mint Frost"
+    colors: ["a5f3d3"]
+    chance: 0.025
+  lavender_haze:
+    name: "Lavender Haze"
+    colors: ["b79cff"]
+    chance: 0.025
+  bone_white:
+    name: "Bone White"
+    colors: ["e9e4c9"]
+    chance: 0.018
+  necrotic_green:
+    name: "Necrotic Green"
+    colors: ["5b8c2a"]
+    chance: 0.018
+  crimson_wine:
+    name: "Crimson Wine"
+    colors: ["7a0f2b"]
+    chance: 0.018
+  holo_silver:
+    name: "Holo Silver"
+    colors: ["c9d2e0"]
+    chance: 0.012
+  midas_gold:
+    name: "Midas Gold"
+    colors: ["e7b800"]
+    chance: 0.012
+  abyss_blue:
+    name: "Abyss Blue"
+    colors: ["06071f"]
+    chance: 0.012
+  void_purple:
+    name: "Void Purple"
+    colors: ["3d0a5c"]
+    chance: 0.008
+  blood_moon:
+    name: "Blood Moon"
+    colors: ["8a0303"]
+    chance: 0.008
+  glacier_blue:
+    name: "Glacier Blue"
+    colors: ["b8f3ff"]
+    chance: 0.008
+  celestial_pearl:
+    name: "Celestial Pearl"
+    colors: ["f3e8ff"]
+    chance: 0.005
+  aquamarine_dream:
+    name: "Aquamarine Dream"
+    colors: ["7fffd4"]
+    chance: 0.004
+  pulse:
+    name: "Pulse"
+    colors: ["e02424", "3a0000"]
+    chance: 0.01
+    animated: true
+    speed: 16
+  ocean_wave:
+    name: "Ocean Wave"
+    colors: ["1f5fbf", "4fd1f0", "06071f"]
+    chance: 0.01
+    animated: true
+    speed: 18
+  fire:
+    name: "Fire"
+    colors: ["ff2a00", "ff9d00", "ffe600"]
+    chance: 0.008
+    animated: true
+    speed: 12
+  toxic:
+    name: "Toxic"
+    colors: ["39ff14", "2f7d32", "0b2e0b"]
+    chance: 0.007
+    animated: true
+    speed: 14
+  sunset:
+    name: "Sunset"
+    colors: ["ff5e3a", "f06292", "6a2fb0"]
+    chance: 0.006
+    animated: true
+    speed: 20
+  rainbow:
+    name: "Rainbow"
+    colors: ["ff0000", "ff8800", "ffee00", "00cc44", "0088ff", "7a2bff"]
+    chance: 0.004
+    animated: true
+    speed: 14
+  aurora:
+    name: "Aurora"
+    colors: ["00ff9d", "3d7bff", "b24bff"]
+    chance: 0.003
+    animated: true
+    speed: 22
+  void_flux:
+    name: "Void Flux"
+    colors: ["3d0a5c", "000000", "8a2be2"]
+    chance: 0.002
+    animated: true
+    speed: 16
+  midas_shimmer:
+    name: "Midas Shimmer"
+    colors: ["e7b800", "fff3a0", "b8860b"]
+    chance: 0.0015
+    animated: true
+    speed: 10
+  chroma:
+    name: "Chroma"
+    colors: ["ff0000", "ff8000", "ffff00", "80ff00", "00ff00", "00ff80", "00ffff", "0080ff", "0000ff", "8000ff", "ff00ff", "ff0080"]
+    chance: 0.001
+    animated: true
+    speed: 5
